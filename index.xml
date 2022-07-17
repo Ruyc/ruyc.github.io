@@ -5,7 +5,7 @@
     <link>https://ruyc.github.io/</link>
       <atom:link href="https://ruyc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Yurong Chen</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ruyc.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Yurong Chen</title>
@@ -13,25 +13,9 @@
     </image>
     
     <item>
-      <title>One Paper Just Got Accepted By IJCAI 2022!</title>
-      <link>https://ruyc.github.io/news/ijcai2022/</link>
-      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://ruyc.github.io/news/ijcai2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On the Convergence of Fictitious Play: A Decomposition Approach</title>
-      <link>https://ruyc.github.io/publication/fictitious_play/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://ruyc.github.io/publication/fictitious_play/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Optimal Private Payoff Manipulation against Commitment in Extensive-form Games</title>
       <link>https://ruyc.github.io/publication/cheatonefg/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://ruyc.github.io/publication/cheatonefg/</guid>
       <description>&lt;!-- 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -52,6 +36,22 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 --- --&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>One Paper Just Got Accepted By IJCAI 2022!</title>
+      <link>https://ruyc.github.io/news/ijcai2022/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://ruyc.github.io/news/ijcai2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Convergence of Fictitious Play: A Decomposition Approach</title>
+      <link>https://ruyc.github.io/publication/fictitious_play/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://ruyc.github.io/publication/fictitious_play/</guid>
+      <description></description>
     </item>
     
     <item>
