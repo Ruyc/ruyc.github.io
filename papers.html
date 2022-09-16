@@ -1,0 +1,584 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Yurong Chen | Papers</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--link rel="stylesheet" href="css/skeleton.css"-->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Lato:300,400,700|Roboto:300,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="jgan.css">
+  <!--link rel="icon" type="image/png" href="images/favicon.png"-->
+  <script src="utl.js"></script>
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header" id="header">
+    <div class="row">
+      <div class="title-container">
+        <h5 class="title" id="title">
+          JIARUI GAN
+        </h5>
+      </div>
+      <div class="navbar-container">
+          <nav class="navbar" style="line-height: 3; float: right;">
+            <a href="index.html">home</a> |
+            <b>papers</b> |
+            <a href="misc.html">misc</a>
+        </nav>
+        </div>
+      </div>
+    </div>
+
+<div class="top placeholder"></div>
+
+  <div class="row">
+    <div>
+      <h5>
+        PAPERS 🧻
+      </h5>
+    </div>
+</div>
+
+<p class="footnote">
+  * Asterisks denote alphabetical author order.
+</p>
+
+<!--abstract button template-->
+<span id="abs-btn-template" style="display:none;">
+<span class="abs-btn" onclick="absButtonClick(this)">
+  <span class="abs-btn-border">[</span><span class="abs-btn-inner"><span class="abs-btn-text">abstract</span>
+</span><span class="abs-btn-border"><span class="abs-btn-cross">+</span>]</span>
+</span>
+</span>
+<!--span id="abs-btn-template" style="display:none;">
+<span class="abs-btn" onclick="absButtonClick(this)">
+  [<span class="abs-btn-inner">abstract <span class="abs-btn-cross">+</span></span>]</span>
+</span>
+</span-->
+
+	<!--Priprint-->
+	<!--div class="row papercontainer">
+  <div class="one-n-half columns paperyear">
+	Preprints
+  </div>
+  <div class="ten-n-half columns">
+  <div class="paperlist">
+  		<ul>
+  		<li>
+  		    <span class="jgan">J. Gan*</span>, M. Han, J. Wu, H. Xu <br/>
+    			<span class="papername">Optimal Coordination in Generalized Principal-Agent Problems: A Revisit and Extensions
+.</span> 
+          <span class="paper-links-block">
+            <a class="paper-link" href="https://arxiv.org/pdf/2209.01146.pdf">[arXiv]</a>
+            <span class="abs-btn-container"></span>
+          </span>
+          <p class="abs-text">
+            In the principal-agent problem formulated in [Myerson 1982], agents have private information (type) and make private decisions (action), both of which are unobservable to the principal. Myerson pointed out an elegant solution that relies on the revelation principle, which states that without loss of generality optimal coordination mechanisms of this problem can be assumed to be truthful and direct. Consequently, the problem can be solved by a linear program when the support sets of the action and type spaces are finite. In this paper, we extend Myerson's results to the setting where the principal's action space might be infinite and subject to additional design constraints. This generalized principal-agent model unifies several important design problems — including contract design, information design, and Bayesian Stackelberg games — and encompasses them as special cases. We present a revelation principle for this general model, based on which a polynomial-time algorithm is derived for computing the optimal coordination mechanism. This algorithm not only implies new efficient algorithms simultaneously for all the aforementioned special cases but also significantly simplifies previous approaches in the literature.
+          </p>
+  		</li>
+  		<li>
+  		    D. Mandal, <span class="jgan">J. Gan</span>. <br/>
+    			<span class="papername">Socially Fair Reinforcement Learning.</span> 
+          <span class="paper-links-block">
+            <a class="paper-link" href="https://arxiv.org/pdf/2208.12584.pdf">[arXiv]</a>
+            <span class="abs-btn-container"></span>
+          </span>
+          <p class="abs-text">
+            We consider the problem of episodic reinforcement learning where there are multiple stakeholders with different reward functions. Our goal is to output a policy that is socially fair with respect to different reward functions. Prior works have proposed different objectives that a fair policy must optimize including minimum welfare, and generalized Gini welfare. We first take an axiomatic view of the problem, and propose four axioms that any such fair objective must satisfy. We show that the Nash social welfare is the unique objective that uniquely satisfies all four objectives, whereas prior objectives fail to satisfy all four axioms. We then consider the learning version of the problem where the underlying model i.e. Markov decision process is unknown. We consider the problem of minimizing regret with respect to the fair policies maximizing three different fair objectives -- minimum welfare, generalized Gini welfare, and Nash social welfare. Based on optimistic planning, we propose a generic learning algorithm and derive its regret bound with respect to the three different policies. For the objective of Nash social welfare, we also derive a lower bound in regret that grows exponentially with n, the number of agents. Finally, we show that for the objective of minimum welfare, one can improve regret by a factor of O(H) for a weaker notion of regret.
+          </p>
+  		</li>
+  		<li>
+  		    <span class="jgan">J. Gan*</span>, B. Li, Y. Li. <br/>
+    			<span class="papername">Fair resource sharing with externailities.</span> 
+          <span class="paper-links-block">
+            <a class="paper-link" href="https://arxiv.org/pdf/2012.04522.pdf">[arXiv]</a>
+            <span class="abs-btn-container"></span>
+          </span>
+          <p class="abs-text">
+            We study a fair resource sharing problem, where a set of resources are to be shared among a set of agents. Each agent demands one resource and each resource can serve a limited number of agents. An agent cares about what resource they get as well as the externalities imposed by their mates, whom they share the same resource with. Apparently, the strong notion of envy-freeness, where no agent envies another for their resource or mates, cannot always be achieved and we show that even to decide the existence of such a strongly envy-free assignment is an intractable problem. Thus, a more interesting question is whether (and in what situations) a relaxed notion of envy-freeness, the Pareto envy-freeness, can be achieved: an agent i envies another agent j only when i envies both the resource and the mates of j. In particular, we are interested in a dorm assignment problem, where students are to be assigned to dorms with the same capacity and they have dichotomous preference over their dorm-mates. We show that when the capacity of the dorms is 2, a Pareto envy-free assignment always exists and we present a polynomial-time algorithm to compute such an assignment; nevertheless, the result fails to hold immediately when the capacities increase to 3, in which case even Pareto envy-freeness cannot be guaranteed. In addition to the existential results, we also investigate the implications of envy-freeness on proportionality in our model and show that envy-freeness in general implies approximations of proportionality.
+          </p>
+  		</li>
+  		</ul>
+  	</div>
+  </div>
+  </div-->
+
+<!--2022-->
+	<div class="row papercontainer">
+  <div class="one-n-half columns paperyear">
+	2022
+</div>
+<div class="ten-n-half columns">
+<div class="paperlist">
+		<ul>
+		  <li>
+  		    <span class="jgan">J. Gan</span>, R. Majumdar, G. Radanovic, A. Singla. <!--PN--><br/><!--PN-->
+  		    <!--span class="newicon">[new] </span-->
+    			<span class="papername">Bayesian persuasion in sequential decision-making.</span> <span class="confname">AAAI '22 (accepted)</span>
+          <span class="paper-links-block">
+            <a class="paper-link" href="https://arxiv.org/pdf/2106.05137.pdf">[arXiv]</a>
+            <span class="abs-btn-container"></span>
+          </span>
+          <br/>
+          <span style="font-weight: 300;">(✧ <a href="https://aaai.org/Conferences/AAAI-22/wp-content/uploads/2022/02/AAAI-22-Paper-Awards.pdf">Outstanding Paper Honorable Mention @ AAAI '22</a>)</span>
+          <p class="abs-text">
+            We study a dynamic model of Bayesian persuasion in sequential decision-making settings. An informed principal observes an external parameter of the world and advises an uninformed agent about actions to take over time. The agent takes actions in each time step based on the current state, the principal's advice/signal, and beliefs about the external parameter. The action of the agent updates the state according to a stochastic process. The model arises naturally in many applications, e.g., an app (the principal) can advise the user (the agent) on possible choices between actions based on additional real-time information the app has. We study the problem of designing a signaling strategy from the principal's point of view. We show that the principal has an optimal strategy against a myopic agent, who only optimizes their rewards locally, and the optimal strategy can be computed in polynomial time. In contrast, it is NP-hard to approximate an optimal policy against a far-sighted agent. Further, we show that if the principal has the power to threaten the agent by not providing future signals, then we can efficiently design a threat-based strategy. This strategy guarantees the principal's payoff as if playing against an agent who is far-sighted but myopic to future signals.
+          </p>
+  		</li>
+  		<li>
+  		    K. Banihashem, A. Singla, <span class="jgan">J. Gan</span>, G. Radanovic. <!--PN--><br/><!--PN-->
+    			<span class="papername">Admissible policy teaching through reward design.</span> <span class="confname">AAAI '22 (accepted)</span>
+          <span class="paper-links-block">
+            <a class="paper-link" href="https://arxiv.org/abs/2201.02185">[arXiv]</a>
+            <span class="abs-btn-container"></span>
+          </span>
+          <p class="abs-text">
+            We study reward design strategies for incentivizing a reinforcement learning agent to adopt a policy from a set of admissible policies. The goal of the reward designer is to modify the underlying reward function cost-efficiently while ensuring that any approximately optimal deterministic policy under the new reward function is admissible and performs well under the original reward function. This problem can be viewed as a dual to the problem of optimal reward poisoning attacks: instead of forcing an agent to adopt a specific policy, the reward designer incentivizes an agent to avoid taking actions that are inadmissible in certain states. Perhaps surprisingly, and in contrast to the problem of optimal reward poisoning attacks, we first show that the reward design problem for admissible policy teaching is computationally challenging, and it is NP-hard to find an approximately optimal reward modification.  We then proceed by formulating a surrogate problem whose optimal solution approximates the optimal solution to the reward design problem in our setting, but is more amenable to optimization techniques and analysis. For this surrogate problem, we present characterization results that provide bounds on the value of the optimal solution. Finally, we design a local search algorithm to solve the surrogate problem and showcase its utility using simulation-based experiments.
+          </p>
+  		</li>
+		</ul>
+	</div>
+</div>
+</div>
+
+<!--2021-->
+	<div class="row papercontainer">
+  <div class="one-n-half columns paperyear">
+	2021
+</div>
+<div class="ten-n-half columns">
+<div class="paperlist">
+		<ul>
+		  <li>
+		      A. Agarwal, E. Elkind, <span class="jgan">J. Gan*</span>, A. Igarashi, W. Suksompong, A. Voudouris. <!--PN--><br/><!--PN-->
+    			<span class="papername">Schelling games on graphs.</span> <span class="confname">Artificial Intelligence</span>.
+          <span class="paper-links-block">
+            <a class="paper-link" href="https://doi.org/10.1016/j.artint.2021.103576">[link]</a>
+            <span class="abs-btn-container"></span>
+          </span>
+          <p class="abs-text">
+            We study strategic games inspired by Schelling's seminal model of residential segregation. These games are played on undirected graphs, with the set of agents partitioned into multiple types; each agent either aims to maximize the fraction of her neighbors who are of her own type, or occupies a node of the graph and never moves away. We consider two natural variants of this model: in jump games agents can jump to empty nodes of the graph to increase their utility, while in swap games they can swap positions with other agents. We investigate the existence, computational complexity, and quality of equilibrium assignments in these games, both from a social welfare perspective and from a diversity perspective. Some of our results extend to a more general setting where the preferences of the agents over their neighbors are defined by a social network rather than a partition into types.<br/><br/>
+            
+            (This paper unifies and expands earlier versions that appeared in IJCAI '19 and AAAI '20.) 
+          </p>
+    	</li>
+    	<li>
+		  G. Birmpas, <span class="jgan">J. Gan*</span>, A. Hollender, F. Marmolejo-Cossío, N. Rajgopal, A. Voudouris. <!--PN--><br/><!--PN-->
+      <span class="papername">Optimally deceiving a learning leader in Stackelberg games.</span> 
+      <span class="confname">Journal of AI Research (JAIR)</span>.
+      <span class="paper-links-block">
+        <a class="paper-link" href="https://jair.org/index.php/jair/article/view/12542" target="_blank">[pdf]</a>
+        <span class="abs-btn-container">
+      </span>
+    </span>
+      <p class="abs-text">
+        Recent results have shown that algorithms for learning the optimal commitment in a Stackelberg game are susceptible to manipulation by the follower. These learning algorithms operate by querying the best responses of the follower, who consequently can deceive the algorithm by using fake best responses, typically by responding according to fake payoffs that are different from the actual ones. For this strategic behavior to be successful, the main challenge faced by the follower is to pinpoint the fake payoffs that would make the learning algorithm output a commitment that benefits them the most. While this problem has been considered before, the related literature has only focused on a simple setting where the follower can only choose from a finite set of payoff matrices, thus leaving the general version of the problem unanswered. In this paper, we fill this gap by showing that it is always possible for the follower to efficiently compute (near-)optimal fake payoffs, for various scenarios of learning interaction between the leader and the follower. Our results also establish an interesting connection between the follower’s deception and the leader’s maximin utility: through deception, the follower can induce almost any (fake) Stackelberg equilibrium if and only if the leader obtains at least their maximin utility in this equilibrium.<br/><br/>
+            
+          (A preliminary version appeared in NeurIPS '20.) 
+      </p>
+		</li>
+		  <li>
+  		    W. Xiaowei, B. Li, <span class="jgan">J. Gan</span>. <!--PN--><br/><!--PN-->
+    			<span class="papername">Budget-feasible maximum Nash social welfare allocation is almost envy-free.</span> <span class="confname">IJCAI '21</span>.
+          <span class="paper-links-block">
+            <a class="paper-link" href="https://www.ijcai.org/proceedings/2021/0065.pdf">[pdf </a>|
+            <a class="paper-link" href="https://arxiv.org/pdf/2012.03766"> arXiv]</a>
+            <span class="abs-btn-container"></span>
+          </span>
+          <p class="abs-text">
+            The Nash social welfare (NSW) is a well-known social welfare measurement that balances individual utilities and the overall efficiency. In the context of fair allocation of indivisible goods, it has been shown by Caragiannis et al. (EC 2016 and TEAC 2019) that an allocation maximizing the NSW is envy-free up to one good (EF1). In this paper, we are interested in the fairness of the NSW in a budget-feasible allocation problem, in which each item has a cost that will be incurred to the agent it is allocated to, and each agent has a budget constraint on the total cost of items she receives. We show that a budget-feasible allocation that maximizes the NSW achieves a 1/4-approximation of EF1 and the approximation ratio is tight. The approximation ratio improves gracefully when the items have small costs compared with the agents' budgets; it converges to 1/2 when the budget-cost ratio approaches infinity.
+          </p>
+  		</li>
+		  <li>
+    			D. Mutzari, <span class="jgan">J. Gan</span>, S. Kraus. <!--PN--><br/><!--PN-->
+    			<span class="papername">Coalition formation in multi-defender security games.</span> <span class="confname">AAAI '21</span>.
+    			<span class="paper-links-block"> 
+    			  <a class="paper-link" href="https://jgan.neocities.org/papers/AAAI21.coalition.pdf">[pdf]</a>
+    		    <span class="abs-btn-container"></span>
+          </span>
+          <p class="abs-text">
+            We study Stackelberg security game (SSG) with multiple defenders, where heterogeneous defenders need to allocate security resources to protect a set of targets against a strategic attacker. In such games, coordination and cooperation between the defenders can increase their ability to protect their assets, but the heterogeneous preferences of the self-interested defenders often make such cooperation very difficult. In this paper, we approach the problem from the perspective of cooperative game theory and study coalition formation among the defenders. Our main contribution is a number of algorithmic results for the computation problems that arise in this model. We provide a poly-time algorithm for computing a solution in the {\em core} of the game and show that all of the elements in the core are Pareto efficient. We show that the problem of computing the entire core is NP-hard and then delve into a special setting where the size of a coalition is limited up to some threshold. We analyse the parameterized complexity of deciding if a coalition structure is in the core under this special setting, and provide a poly-time algorithm for computing successful deviation strategies for a given coalition.
+          </p>
+    	</li>
+		  <li>
+  		    <!--span class="newicon">[new] </span-->
+  		    <!--span style="
+              background-color: #ffcc66;
+              color: black;
+              font-size: 90%;
+              padding: 1px 2px 1px 2px;
+          ">α-β</span-->
+    			E. Elkind, <span class="jgan">J. Gan*</span>, S. Obraztsova, Z. Rabinovich, A. Voudouris. <!--PN--><br/><!--PN-->
+    			<span class="papername">Protecting elections by recounting ballots.</span> <span class="confname">Artificial Intelligence</span>.
+          <span class="paper-links-block">
+            <a class="paper-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0004370220301508">[link]</a>
+            <span class="abs-btn-container"></span>
+          </span>
+          <p class="abs-text">
+            Complexity of voting manipulation is a prominent topic in computational social choice. In this work, we consider a two-stage voting manipulation scenario. First, a malicious party (an attacker) attempts to manipulate the election outcome in favor of a preferred candidate by changing the vote counts in some of the voting districts. Afterwards, another party (a defender), which cares about the voters' wishes, demands a recount in a subset of the manipulated districts, restoring their vote counts to their original values. We investigate the resulting Stackelberg game for the case where votes are aggregated using two variants of the Plurality rule, and obtain an almost complete picture of the complexity landscape, both from the attacker's and from the defender's perspective.<br/><br/>
+            
+            (A preliminary version of this paper appeared in the Proceedings of IJCAI '19.) 
+          </p>
+    		</li>
+		</ul>
+	</div>
+</div>
+</div>
+
+	<!--2020-->
+	<div class="row papercontainer">
+  <div class="one-n-half columns paperyear">
+	2020
+</div>
+<div class="ten-n-half columns">
+<div class="paperlist">
+		<ul>
+		<li>
+		  G. Birmpas, <span class="jgan">J. Gan*</span>, A. Hollender, F. Marmolejo-Cossío, N. Rajgopal, A. Voudouris. <!--PN--><br/><!--PN-->
+      <span class="papername">Optimally deceiving a learning leader in Stackelberg games.</span> 
+      <span class="confname">NeurIPS '20</span>.
+      <span class="paper-links-block">
+        <a class="paper-link" href="https://papers.nips.cc/paper/2020/file/ed383ec94720d62a939bfb6bdd98f50c-Paper.pdf" target="_blank">[pdf]</a>
+        <span class="abs-btn-container">
+      </span>
+    </span>
+      <p class="abs-text">
+        Recent results in the ML community have revealed that learning algorithms used to compute the optimal strategy for the leader to commit to in a Stackelberg game, are susceptible to manipulation by the follower. Such a learning algorithm operates by querying the best responses or the payoffs of the follower, who consequently can deceive the algorithm by responding as if his payoffs were much different than what they actually are. For this strategic behavior to be successful, the main challenge faced by the follower is to pinpoint the payoffs that would make the learning algorithm compute a commitment so that best responding to it maximizes the follower's utility, according to his true payoffs. While this problem has been considered before, the related literature only focused on the simplified scenario in which the payoff space is finite, thus leaving the general version of the problem unanswered. In this paper, we fill in this gap, by showing that it is always possible for the follower to compute (near-)optimal payoffs for various scenarios about the learning interaction between leader and follower.
+      </p>
+		</li>
+		<li>
+			<span class="jgan">J. Gan</span>, E. Elkind, S. Kraus, M. Wooldridge. <!--PN--><br/><!--PN-->
+			<span class="papername">Mechanism design for defense coordination in security games.</span> <span class="confname">AAMAS '20</span>.
+      <span class="paper-links-block">
+        <a class="paper-link" href="https://dl.acm.org/doi/pdf/10.5555/3398761.3398812" target="_blank">[pdf]</a>
+        <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        Recent work studied Stackelberg security games with multiple defenders, in which heterogeneous defenders allocate security resources to protect a set of targets against a strategic attacker. Equilibrium analysis was conducted to characterize outcomes of these games when defenders act independently. Our starting point is the observation that the use of resources in equilibria may be inefficient due to lack of coordination. We explore the possibility of reducing this inefficiency by coordinating the defenders—specifically, by pooling the defenders’ resources and allocating them jointly. The defenders’ heterogeneous preferences then give rise to a collective decision-making problem, which calls for a mechanism to generate joint allocation strategies. We seek a mechanism that encourages coordination, produces efficiency gains, and incentivizes the defenders to report their true preferences and to execute the recommended strategies. Our results show that, unfortunately, even these basic properties clash with each other and no mechanism can achieve them simultaneously, which reveals the intrinsic difficulty of achieving meaningful defense coordination in security games. On the positive side, we put forward mechanisms that fulfill some of these properties and we identify special cases of our setting where more of these properties are compatible.
+      </p>
+		</li>
+		<li>
+			A. Agarwal, E. Elkind, <span class="jgan">J. Gan*</span>, A. Voudouris. <!--PN--><br/><!--PN-->
+			<span class="papername">Swap stability in Schelling games on graphs.</span> <span class="confname">AAAI '20</span>.
+      <span class="paper-links-block">
+        <a class="paper-link" href="https://ojs.aaai.org/index.php/AAAI/article/view/5541/5397" target="_blank">[pdf </a>|
+        <a class="paper-link" href="https://arxiv.org/abs/1909.02421" target="_blank"> arXiv]</a>
+        <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        We study a recently introduced class of strategic games that is motivated by and generalizes Schelling's well-known residential segregation model. These games are played on undirected graphs, with the set of agents partitioned into multiple types; each agent either occupies a node of the graph and never moves away or aims to maximize the fraction of her neighbors who are of her own type. We consider a variant of this model that we call swap Schelling games, where the number of agents is equal to the number of nodes of the graph, and agents may swap positions with other agents to increase their utility. We study the existence, computational complexity and quality of equilibrium assignments in these games, both from a social welfare perspective and from a diversity perspective.
+      </p>
+		</li>
+		</ul>
+	</div>
+</div>
+</div>
+
+	<!--2019-->
+	<div class="row papercontainer">
+    <div class="one-n-half columns paperyear">
+  	2019
+  </div>
+  <div class="ten-n-half columns">
+	<div class="paperlist">
+	  <ul>
+		<li>
+			<span class="jgan">J. Gan</span>, Q. Guo, L. Tran-Thanh, B. An, M. Wooldridge. <!--PN--><br/><!--PN-->
+			<span class="papername">Manipulating a learning defender and ways to counteract.</span> <span class="confname">NeurIPS '19</span>.
+      <span class="paper-links-block">
+        <a class="paper-link" href="https://proceedings.neurips.cc/paper/2019/file/c4819d06b0ca810d38506453cfaae9d8-Paper.pdf" target="_blank">[pdf </a>|<a class="paper-link" href="https://arxiv.org/abs/1905.11759" target="_blank"> arXiv </a>|<a class="paper-link" href="papers/manipulating.poster.pdf"> poster]</a>
+        <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        In Stackelberg security games when information about the attacker's payoffs is uncertain, algorithms have been proposed to learn the optimal defender commitment by interacting with the attacker and observing their best responses. In this paper, we show that, however, these algorithms can be easily manipulated if the attacker responds untruthfully. As a key finding, attacker manipulation normally leads to the defender learning a maximin strategy, which effectively renders the learning attempt meaningless as to compute a maximin strategy requires no additional information about the other player at all. We then apply a game-theoretic framework at a higher level to counteract such manipulation, in which the defender commits to a policy that specifies her strategy commitment according to the learned information. We provide a polynomial-time algorithm to compute the optimal such policy, and in addition, a heuristic approach that applies even when the attacker's payoff space is infinite or completely unknown. Empirical evaluation shows that our approaches can improve the defender's utility significantly as compared to the situation when attacker manipulation is ignored.
+      </p>
+		</li>
+		<li>
+			<span class="jgan">J. Gan*</span><!--sup class="note"><a href="#author_note">[*]</a></sup-->, W. Suksompong, A. Voudouris. <!--PN--><br/><!--PN-->
+			<span class="papername">Envy-freeness in house allocation problems.</span> <span class="confname">Mathematical Social Sciences</span>.
+      <span class="paper-links-block">
+        <a class="paper-link" href="https://doi.org/10.1016/j.mathsocsci.2019.07.005" target="_blank">[pdf </a>|<a class="paper-link" href="https://arxiv.org/abs/1905.00468" target="_blank"> arXiv]</a>
+        <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        We consider the house allocation problem, where m houses are to be assigned to n agents so that each agent gets exactly one house. We present a polynomial-time algorithm that determines whether an envy-free assignment exists, and if so, computes one such assignment. We also show that an envy-free assignment exists with high probability if the number of houses exceeds the number of agents by a logarithmic factor.
+      </p>
+		</li>
+		<li>
+			<span class="jgan">J. Gan</span>, H. Xu, Q. Guo, L. Tran-Thanh, Z. Rabinovich, M. Wooldridge. <!--PN--><br/><!--PN-->
+			<span class="papername">Imitative follower deception in Stackelberg games.</span> <span class="confname">EC '19</span>.
+      <span class="paper-links-block">
+        <a class="paper-link" href="https://dl.acm.org/citation.cfm?id=3329629" target="_blank">[pdf </a>|<a class="paper-link" href="https://arxiv.org/abs/1903.02917" target="_blank"> arXiv </a>|<a class="paper-link" href="papers/deception.poster.pdf"> poster]</a>
+        <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        Information uncertainty is one of the major challenges facing applications of game theory. In the context of Stackelberg games, various approaches have been proposed to deal with the leader's incomplete knowledge about the follower's payoffs, typically by gathering information from the leader's interaction with the follower. Unfortunately, these approaches rely crucially on the assumption that the follower will not strategically exploit this information asymmetry, i.e., the follower behaves truthfully during the interaction according to their actual payoffs. As we show in this paper, the follower may have strong incentives to deceitfully imitate the behavior of a different follower type and, in doing this, benefit significantly from inducing the leader into choosing a highly suboptimal strategy. This raises a fundamental question: how to design a leader strategy in the presence of a deceitful follower? To answer this question, we put forward a basic model of Stackelberg games with (imitative) follower deception and show that the leader is indeed able to reduce the loss due to follower deception with carefully designed policies. We then provide a systematic study of the problem of computing the optimal leader policy and draw a relatively complete picture of the complexity landscape; essentially matching positive and negative complexity results are provided for natural variants of the model. Our intractability results are in sharp contrast to the situation with no deception, where the leader's optimal strategy can be computed in polynomial time, and thus illustrate the intrinsic difficulty of handling follower deception. Through simulations we also examine the benefit of considering follower deception in randomly generated games.
+      </p>
+		</li>
+		<li>
+			E. Elkind, <span class="jgan">J. Gan*</span>, A. Igarashi, W. Suksompong, A. Voudouris. <!--PN--><br/><!--PN-->
+			<span class="papername">Schelling games on graphs.</span> <span class="confname">IJCAI '19</span>.
+      <span class="paper-links-block">
+  			<a class="paper-link" href="https://www.ijcai.org/Proceedings/2019/0038.pdf">[pdf </a>|
+  			<a class="paper-link" href="https://arxiv.org/abs/1902.07937" target="_blank"> arXiv]</a>
+        <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        We consider strategic games that are inspired by Schelling's model of residential segregation. In our model, the agents are partitioned into k types and need to select locations on an undirected graph. Agents can be either stubborn, in which case they will always choose their preferred location, or strategic, in which case they aim to maximize the fraction of agents of their own type in their neighborhood. We investigate the existence of equilibria in these games, study the complexity of finding an equilibrium outcome or an outcome with high social welfare, and also provide upper and lower bounds on the price of anarchy and stability. Some of our results extend to the setting where the preferences of the agents over their neighbors are defined by a social network rather than a partition into types.
+      </p>
+		</li>
+		<li>
+			E. Elkind, <span class="jgan">J. Gan*</span>, S. Obraztsova, Z. Rabinovich, A. Voudouris. <!--PN--><br/><!--PN-->
+			<span class="papername">Protecting elections by recounting ballots.</span> <span class="confname">IJCAI '19</span>.
+      <span class="paper-links-block">
+        <a class="paper-link" href="https://www.ijcai.org/proceedings/2019/0037.pdf">[pdf </a>|<a class="paper-link" href="https://arxiv.org/abs/1906.07071" target="_blank"> arXiv </a>|<a class="paper-link" href="papers/recounting.poster.pdf"> poster]</a>
+        <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        Complexity of voting manipulation is a prominent topic in computational social choice. In this work, we consider a two-stage voting manipulation scenario. First, a malicious party (an attacker) attempts to manipulate the election outcome in favor of a preferred candidate by changing the vote counts in some of the voting districts. Afterwards, another party (a defender), which cares about the voters' wishes, demands a recount in a subset of the manipulated districts, restoring their vote counts to their original values. We investigate the resulting Stackelberg game for the case where votes are aggregated using two variants of the Plurality rule, and obtain an almost complete picture of the complexity landscape, both from the attacker's and from the defender's perspective.
+      </p>
+		</li>
+		<li>
+			Q. Guo, <span class="jgan">J. Gan</span>, F. Fang, L. Tran-Thanh, M. Tambe, B. An. <!--PN--><br/><!--PN-->
+			<span class="papername">On the inducibility of Stackelberg equilibrium for security games.</span> <span class="confname">AAAI '19</span>.
+      <span class="paper-links-block">
+        <a class="paper-link" href="https://www.aaai.org/ojs/index.php/AAAI/article/view/4031/3909">[pdf </a>|
+  			<a class="paper-link" href="https://arxiv.org/abs/1811.03823" target="_blank"> arXiv]</a>
+        <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        Strong Stackelberg equilibrium (SSE) is the standard solution concept of Stackelberg security games. As opposed to the weak Stackelberg equilibrium (WSE), the SSE assumes that the follower breaks ties in favor of the leader and this is widely acknowledged and justified by the assertion that the defender can often induce the attacker to choose a preferred action by making an infinitesimal adjustment to her strategy. Unfortunately, in security games with resource assignment constraints, the assertion might not be valid; it is possible that the defender cannot induce the desired outcome. As a result, many results claimed in the literature may be overly optimistic. To remedy, we first formally define the utility guarantee of a defender strategy and provide examples to show that the utility of SSE can be higher than its utility guarantee. Second, inspired by the analysis of leader's payoff by Von Stengel and Zamir (2004), we provide the solution concept called the inducible Stackelberg equilibrium (ISE), which owns the highest utility guarantee and always exists. Third, we show the conditions when ISE coincides with SSE and the fact that in general case, SSE can be extremely worse with respect to utility guarantee. Moreover, introducing the ISE does not invalidate existing algorithmic results as the problem of computing an ISE polynomially reduces to that of computing an SSE. We also provide an algorithmic implementation for computing ISE, with which our experiments unveil the empirical advantage of the ISE over the SSE.
+      </p>
+		</li>
+		</ul>
+	</div>
+	</div>
+</div>
+
+	  <!--2018-->
+    <div class="row papercontainer">
+      <div class="one-n-half columns paperyear">
+    	2018
+    </div>
+    <div class="ten-n-half columns">
+  	<div class="paperlist">
+		<ul>
+		<li>
+			<span class="jgan">J. Gan</span>, E. Elkind, M. Wooldridge. <!--PN--><br/><!--PN-->
+			<span class="papername">Stackelberg security games with multiple uncoordinated defenders.</span> <span class="confname">AAMAS '18</span>.
+      <span class="paper-links-block">
+      <a class="paper-link" href="http://ifaamas.org/Proceedings/aamas2018/pdfs/p703.pdf" target="_blank">[pdf]</a>
+      <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        Stackelberg security games have received much attention in recent years. While most existing work focuses on single-defender settings, there are many real-world scenarios that involve multiple defenders (e.g., multi-national anti-crime actions in international waters, different security agencies patrolling the same area). In this paper, we consider security games with uncoordinated defenders who jointly protect a set of targets, but may have different valuations for these targets; each defender schedules their own resources and selfishly optimizes their own utility. We generalize the standard (single-defender) model of Stackelberg security games to this setting and formulate an equilibrium concept that captures the nature of strategic interaction among the players. We argue that an exact equilibrium may fail to exist, and, in fact, deciding whether it exists is NP-hard. However, under mild assumptions, every multi-defender security game admits an ϵ-equilibrium for every ϵ > 0, and the limit points corresponding to ϵ → 0 can be efficiently approximated.
+    </p>
+		</li>
+		<li>
+			Y. Xiong, <span class="jgan">J. Gan</span>, B. An, C. Miao, A. Bazzan. <!--PN--><br/><!--PN-->
+			<span class="papername">Optimal electric vehicle fast charging station placement based on game theoretical framework.</span> <span class="confname">IEEE Trans. Intelligent Transportation Systems</span>.
+      <span class="paper-links-block">
+      <a class="paper-link" href="https://ieeexplore.ieee.org/abstract/document/8064175" target="_blank">[pdf]</a>
+      <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        To reduce the air pollution and improve the energy efficiency, many countries and cities (e.g., Singapore) are on the way of introducing electric vehicles (EVs) to replace the vehicles serving in current traffic system. Effective placement of charging stations is essential for the rapid development of EVs, because it is necessary for providing convenience for EVs and ensuring the efficiency of the traffic network. However, existing works mostly concentrate on the mileage anxiety from EV users but ignore their strategic and competitive charging behaviors. To capture the competitive and strategic charging behaviors of the EV users, we consider that an EV user's charging cost, which is dependent on other EV users' choices, consists of the travel cost to access the charging station and the queuing cost in charging stations. First, we formulate the Charging Station Placement Problem (CSPP) as a bilevel optimization problem. Then, by exploiting the equilibrium of the EV charging game, we convert the bilevel optimization problem to a single-level one, following which we analyze the properties of CSPP and propose an algorithm Optimizing eleCtric vEhicle chArging statioN (OCEAN) to compute the optimal allocation of charging stations. Due to OCEAN's scalability issue, we furthermore present a heuristic algorithm OCEAN with Continuous variables to deal with large-scale real-world problems. Finally, we demonstrate and discuss the results of the extensive experiments we did. It is shown that our approach outperform baseline methods significantly.
+    </p>
+		</li>
+		</ul>
+	</div>
+	</div>
+</div>
+
+	  <!--2017-->
+    <div class="row papercontainer">
+      <div class="one-n-half columns paperyear">
+    	2017
+    </div>
+    <div class="ten-n-half columns">
+  	<div class="paperlist">
+		<ul>
+		<li>
+			<span class="jgan">J. Gan</span>, B. An, Y. Vorobeychik, B. Gauch. <!--PN--><br/><!--PN-->
+			<span class="papername">Security games on a plane.</span> <span class="confname">AAAI '17</span>.
+      <span class="paper-links-block">
+			<a class="paper-link" href="https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14942/13808" target="_blank">[pdf]</a>
+      <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        Most existing models of Stackelberg security games ignore the underlying topology of the space in which targets and defence resources are located. As a result, allocation of resources is restricted to a discrete collection of exogenously defined targets. However, in many practical security settings, defense resources can be located on a continuous plane. Better defense solutions could therefore be potentially achieved by placing resources in a space outside of actual targets (e.g., between targets). To address this limitation, we propose a model called Security Game on a Plane (SGP) in which targets are distributed on a 2-dimensional plane, and security resources, to be allocated on the same plane, protect targets within a certain effective distance. We investigate the algorithmic aspects of SGP. We find that computing a strong Stackelberg equilibrium of an SGP is NP-hard even for zerosum games, and these are inapproximable in general. On the positive side, we find an exact solution technique for general SGPs based on an existing approach, and develop a PTAS (polynomial-time approximation scheme) for zero-sum SGP to more fundamentally overcome the computational obstacle. Our experiments demonstrate the value of considering SGP and effectiveness of our algorithms.
+    </p>
+		</li>
+		<li>
+			Y. Zhang, B. An, L. Tran-Thanh, Z. Wang, <span class="jgan">J. Gan</span>, N. Jennings. <!--PN--><br/><!--PN-->
+			<span class="papername">Optimal escape interdiction on transportation networks.</span> <span class="confname">IJCAI '17</span>.
+      <span class="paper-links-block">
+			<a class="paper-link" href="https://www.ijcai.org/proceedings/2017/0550.pdf" target="_blank">[pdf]</a>
+      <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        Preventing crimes or terrorist attacks in urban areas is challenging. Law enforcement officers need to respond quickly to catch the attacker on his escape route, which is subject to time-dependent traffic conditions on transportation networks. The attacker can strategically choose his escape path and driving speed to avoid being captured. Existing work on security resource allocation has not considered such scenarios with time-dependent strategies for both players. Therefore, in this paper, we study the problem of efficiently scheduling security resources for interdicting the escaping attacker. We propose: 1) a new defender-attacker security game model for escape interdiction on transportation networks; and 2) an efficient double oracle algorithm to compute the optimal defender strategy, which combines mixed-integer linear programming formulations for best response problems and effective approximation algorithms for improving the scalability of the algorithms. Experimental evaluation shows that our approach significantly outperforms baselines in solution quality and scales up to realistic-sized transportation networks with hundreds of intersections.
+    </p>
+		</li>
+		<li>
+			<span class="jgan">J. Gan</span>, B. An. <!--PN--><br/><!--PN-->
+			<span class="papername">Game-theoretic considerations for optimizing taxi system efficiency.</span> <span class="confname">IEEE Intelligent Systems</span>.
+      <span class="paper-links-block">
+			<a class="paper-link" href="https://ieeexplore.ieee.org/document/7933924" target="_blank">[pdf]</a>
+      <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        Taxi service is an indispensable part of public transport in modern cities. To support its unique features, a taxi system adopts a decentralized operation mode in which thousands of taxis freely decide their working schedules and routes. Taxis compete with each other for individual profits regardless of system-level efficiency, making the taxi system inefficient and hard to optimize. Most research into the management and economics of taxi markets has focused on modeling from a macro level the effects of and relationships between various market factors. Less has been done regarding a more important component--drivers' strategic behavior under the decentralized operation mode. The authors propose looking at the problem from a game-theoretic perspective. Combining game-theoretic solution concepts with existing models of taxi markets, they model taxi drivers' strategy-making process as a game and transform the problem of optimizing taxi system efficiency into finding a market policy that leads to the desired equilibrium.
+    </p>
+		</li>
+		</ul>
+	</div>
+	</div>
+</div>
+
+  <!--2016-->
+  <div class="row papercontainer">
+    <div class="one-n-half columns paperyear">
+  	2016 & before
+  </div>
+  <div class="ten-n-half columns">
+	<div class="paperlist">
+		<ul>
+		<li>
+      Q. Guo, B. An, Y. Vorobeychik, L. Tran-Thanh, <span class="jgan">J. Gan</span>, C. Miao. <!--PN--><br/><!--PN-->
+			<span class="papername">Coalitional security games.</span> <span class="confname">AAMAS '16</span>.
+      <span class="paper-links-block">
+			<a class="paper-link" href="http://www.ifaamas.org/Proceedings/aamas2016/pdfs/p159.pdf" target="_blank">[pdf]</a>
+      <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        Game theoretic models of security, and associated computational methods, have emerged as critical components of security posture across a broad array of domains, including airport security and coast guard. These approaches consider terrorists as motivated but independent entities. There is, however, increasing evidence that attackers, be it terrorists or cyber attackers, communicate extensively and form coalitions that can dramatically increase their ability to achieve malicious goals. To date, such cooperative decision making among attackers has been ignored in the security games literature. To address the issue of cooperation among attackers, we introduce a novel coalitional security game (CSG) model. A CSG consists of a set of attackers connected by a (communication or trust) network who can form coalitions as connected subgraphs of this network so as to attack a collection of targets. A defender in a CSG can delete a set of edges, incurring a cost for deleting each edge, with the goal of optimally limiting the attackers’ ability to form effective coalitions (in terms of successfully attacking high value targets). We first show that a CSG is, in general, hard to approximate. Nevertheless, we develop a novel branch and price algorithm, leveraging a combination of column generation, relaxation, greedy approximation, and stabilization methods to enable scalable high-quality approximations of CSG solutions on realistic problem instances.
+    </p>
+		</li>
+		<li>
+			Y. Xiong, <span class="jgan">J. Gan</span>, B. An, C. Miao. <!--PN--><br/><!--PN-->
+			<span class="papername">Optimal pricing for efficient electric vehicle charging station management.</span>
+			<span class="confname">AAMAS '16</span>.
+      <span class="paper-links-block">
+			<a class="paper-link" href="http://www.ifaamas.org/Proceedings/aamas2016/pdfs/p749.pdf" target="_blank">[pdf]</a>
+      <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        The rapid development of Electric Vehicles (EVs) seen in recent years has been drawing increasing attentions from the public, markets, decision-makers, and academia. Notwithstanding the progress, issues still remain. Because of the widely complained disadvantages of limited battery capacity and long charging time, charging convenience has become a top concern that greatly hinders the adoption of EVs. Specialized EV charging station, which provides more than 10 times faster charging speed than domestic charging, is therefore a critical element for successful EV promotion. While most existing researches focus on optimizing spatial placement of charging stations, they are inflexible and inefficient against rapidly changing urban structure and traffic pattern. Therefore, this paper approaches the management of EV charging stations from the pricing perspective as a more flexible and adaptive complement to established charging station placement. In this paper, we build a realistic pricing model in consideration of residential travel pattern and EV drivers’ self-interested charging behavior, traffic congestion, and operating expense of charging stations. We formulate the pricing problem as a mixed integer non-convex optimization problem, and propose a scalable algorithm to solve it. Experiments on both mock and real data are also conducted, which show scalability of our algorithm as well as our solution’s significant improvement over existing approaches.
+    </p>
+		</li>
+		</ul>
+	<!--/div>
+	</div-->
+
+	<!--2015-->
+	<!--div class="papercontainer">
+	<div class="paperyear">2015</div>
+	<div class="paperlist"-->
+		<!--h3><a href="#" name="2015"></a>2015</h3-->
+		<!--font style="line-height:150%"-->
+		<ul>
+			<li>
+				Y. Yin, H. Xu, <span class="jgan">J. Gan</span>, B. An, A. Jiang. <!--PN--><br/><!--PN-->
+				<span class="papername">Computing optimal mixed strategies for security games with dynamic payoffs.</span> <span class="confname">IJCAI '15</span>.
+        <span class="paper-links-block">
+        <a class="paper-link" href="https://www.ijcai.org/Proceedings/15/Papers/102.pdf" target="_blank">[pdf]</a>
+        <span class="abs-btn-container"></span>
+        </span>
+        <p class="abs-text">
+          Security agencies in the real world often need to protect targets with time-dependent values, e.g., tourist sites where the number of travelers changes over time. Since the values of different targets often change asynchronously, the defender can relocate security resources among targets dynamically to make the best use of limited resources. We propose a game-theoretic scheme to develop dynamic, randomized security strategies in consideration of adversary’s surveillance capability. This differs from previous studies on security games by considering varying target values and continuous strategy spaces of the security agency and the adversary. The main challenge lies in the computational intensiveness due to the continuous, hence infinite strategy spaces. We propose an optimal algorithm and an arbitrarily near-optimal algorithm to compute security strategies under different conditions. Experimental results show that both algorithms significantly outperform existing approaches.
+      </p>
+			</li>
+			<li>
+        Y. Xiong, <span class="jgan">J. Gan</span>, B. An, C. Miao, A. Bazzan. <!--PN--><br/><!--PN-->
+				<span class="papername">Optimal electric vehicle charging station placement.</span> <span class="confname">IJCAI '15</span>.
+        <span class="paper-links-block">
+        <a class="paper-link" href="https://www.ijcai.org/Proceedings/15/Papers/377.pdf" target="_blank">[pdf]</a>
+        <span class="abs-btn-container"></span>
+        </span>
+        <p class="abs-text">
+          Many countries like Singapore are planning to introduce Electric Vehicles (EVs) to replace traditional vehicles to reduce air pollution and improve energy efficiency. The rapid development of EVs calls for efficient deployment of charging stations both for the convenience of EVs and maintaining the efficiency of the road network. Unfortunately, existing work makes unrealistic assumption on EV drivers’ charging behaviors and focus on the limited mobility of EVs. This paper studies the Charging Station PLacement (CSPL) problem, and takes into consideration 1) EV drivers’ strategic behaviors to minimize their charging cost, and 2) the mutual impact of EV drivers’ strategies on the traffic conditions of the road network and service quality of charging stations. We first formulate the CSPL problem as a bilevel optimization problem, which is subsequently converted to a single-level optimization problem by exploiting structures of the EV charging game. Properties of CSPL problem are analyzed and an algorithm called OCEAN is proposed to compute the optimal allocation of charging stations. We further propose a heuristic algorithm OCEAN-C to speed up OCEAN. Experimental results show that the proposed algorithms significantly outperform baseline methods.
+      </p>
+			</li>
+			<li>
+        <span class="jgan">J. Gan</span>, B. An, C. Miao. <!--PN--><br/><!--PN-->
+				<span class="papername">Optimizing efficiency of taxi systems: scaling-up and handling arbitrary constraints</span>. <span class="confname">AAMAS '15</span>.
+        <span class="paper-links-block">
+        <a class="paper-link" href="https://dl.acm.org/doi/10.5555/2772879.2772946" target="_blank">[pdf]</a>
+        <span class="abs-btn-container"></span>
+        </span>
+        <p class="abs-text">
+          Taxi service is an indispensable part of public transport in modern cities. However, due to its decentralized operation mode, taxi services in many cities are inefficient. Besides, the decentralized nature also poses significant challenges to analyzing and regulating taxi services. State of the art computational methods for optimizing taxi market efficiency suffer from two important limitations: 1) they cannot be scaled up efficiently; and 2) they cannot address complex real-world market situations where additional scheduling constraints need to be handled. In this paper, we propose two novel algorithms—FLORA and FLORA-A—to address the inadequacies. Using convex polytope representation techniques, FLORA provides a fully compact representation for taxi drivers’ strategy space and scales up more efficiently than existing algorithms. FLORA-A avoids enumerating the entire exponentially large pure strategy space by gradually expanding the strategy space. It is the first known method capable of handling arbitrary scheduling constraints for optimizing taxi system efficiency. Experimental results show orders of magnitude improvement in speed FLORA provides, and the necessity of using FLORA-A as suggested by changes in the taxi drivers’ operation strategy under different market conditions.
+      </p>
+			</li>
+			<li>
+                <span class="jgan">J. Gan</span>, B. An, Y. Vorobeychik. <!--PN--><br/><!--PN-->
+				<span class="papername">Security games with protection externality</span>.
+				<span class="confname">AAAI'15</span>.
+        <span class="paper-links-block">
+        <a class="paper-link" href="https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9883" target="_blank">[pdf </a>|<a class="paper-link" href="/papers/AAAI15_externality_appendix.pdf"> appendix]</a>
+        <span class="abs-btn-container"></span>
+        </span>
+        <p class="abs-text">
+          Stackelberg security games have been widely deployed in recent years to schedule security resources. An assumption in most existing security game models is that one security resource assigned to a target only protects that target. However, in many important real-world security scenarios, when a resource is assigned to a target, it exhibits protection externalities: that is, it also protects other “neighbouring” targets. We investigate such Security Games with Protection Externalities (SPEs). First, we demonstrate that computing a strong Stackelberg equilibrium for an SPE is NP-hard, in contrast with traditional Stackelberg security games which can be solved in polynomial time. On the positive side, we propose a novel column generation based approach—CLASPE—to solve SPEs. CLASPE features the following novelties: 1) a novel mixed-integer linear programming formulation for the slave problem; 2) an extended greedy approach with a constant-factor approximation ratio to speed up the slave problem; and 3) a linear-scale linear programming that efficiently calculates the upper bounds of target-defined subproblems for pruning. Our experimental evaluation demonstrates that CLASPE enable us to scale to realistic-sized SPE problem instances.
+      </p>
+			</li>
+			<!--li>
+                <span class="papername">Game theoretic considerations for optimizing efficiency of taxi systems</span>. <a href="http://www.intsci.ac.cn/users/ganjiarui/publications/AAAI-15-ws-Taxi.pdf">[pdf]</a><br/>
+				<span class="jgan">J. Gan</span>, B. An. AAAI-15 Workshop on Computational Sustainability.
+			</li-->
+		</ul>
+	<!--/div>
+	</div-->
+
+	<!--2014-->
+	<!--div class="papercontainer">
+	<div class="paperyear">2014</div>
+	<div class="paperlist">
+		<ul>
+		<li>
+            <span class="papername">A scalable algorithm for solving taxi system efficiency optimization</span>. <a href="http://www.intsci.ac.cn/users/ganjiarui/publications/AAMAS-14-Taxi.pdf">[pdf]</a><br/>
+			<span class="jgan">J. Gan</span>, B. An, C. Miao. <b>AAMAS’14</b> (extended abstract).
+		</li>
+		<li>
+            <span class="papername">Minimum support size of the defender's strong Stackelberg equilibrium strategies in security games</span>. <a href="http://www.intsci.ac.cn/users/ganjiarui/publications/AAAISS-14-MinSupport.pdf">[pdf]</a><br/>
+			<span class="jgan">J. Gan</span>, B. An. 2014 AAAI Spring Symposium on Spring Symposium on Applied Computational Game Theory.
+		</li>
+		</ul>
+	</div>
+	</div-->
+
+
+	<!--2013-->
+	<!--div class="papercontainer">
+	<div class="paperyear">2013</div>
+	<div class="paperlist"-->
+		<ul>
+		<li>
+      <span class="jgan">J. Gan</span>, B. An, H. Wang, X. Sun, Z. Shi. <!--PN--><br/><!--PN-->
+			<span class="papername">Optimal pricing for improving efficiency of taxi systems</span>.
+			<span class="confname">IJCAI ’13</span>.
+      <span class="paper-links-block">
+      <a class="paper-link" href="https://www.ijcai.org/Proceedings/13/Papers/414.pdf" target="_blank">[pdf]</a>
+      <span class="abs-btn-container"></span>
+      </span>
+      <p class="abs-text">
+        In Beijing, most taxi drivers intentionally avoid working during peak hours despite of the huge customer demand within these peak periods. This dilemma is mainly due to the fact that taxi drivers' congestion costs are not reflected in the current taxi fare structure. To resolve this problem, we propose a new pricing scheme to provide taxi drivers with extra incentives to work during peak hours. This differs from previous studies of taxi market by considering market variance over multiple periods, taxi drivers' profit-driven decisions, and their scheduling constraints regarding the interdependence among different periods. The major challenge of this research is the computational intensiveness to identify optimal strategy due to the exponentially large size of a taxi driver's strategy space and the scheduling constraints. We develop an atom schedule method to overcome these issues. It reduces the magnitude of the problem while satisfying the constraints to filter out infeasible pure strategies. Simulation results based on real data show the effectiveness of the proposed methods, which opens up a new door to improving the efficiency of taxi market in megacities (e.g., Beijing).
+    </p>
+		</li>
+		</ul>
+	</div>
+	</div>
+</div>
+
+
+</div>
+
+</body>
+</html>
