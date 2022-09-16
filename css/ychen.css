@@ -335,7 +335,7 @@
 
 
     .cite-btn-container{
-        width: 5rem;
+        width: 7.5rem;
         display: inline-block;
       }
       
@@ -357,7 +357,7 @@
         font-weight: 300;
         overflow: hidden;
         display: inline-block;
-        max-width: 4.4rem;
+        max-width: 7.5rem;
         transition: all 800ms;
       }
       
