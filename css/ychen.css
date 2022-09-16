@@ -263,7 +263,7 @@
   }
   
   .abs-btn-container{
-    width: 7.5rem;
+    width: 8.5rem;
     display: inline-block;
   }
   
@@ -335,7 +335,7 @@
 
 
     .cite-btn-container{
-        width: 7.5rem;
+        width: 5.5rem;
         display: inline-block;
       }
       
@@ -357,7 +357,7 @@
         font-weight: 300;
         overflow: hidden;
         display: inline-block;
-        max-width: 7.5rem;
+        max-width: 5.5rem;
         transition: all 800ms;
       }
       
