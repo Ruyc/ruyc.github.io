@@ -1,0 +1,86 @@
+I"�	<table>
+  <tbody>
+    <tr>
+      <td>Yurong Chen</td>
+      <td>Misc     <!--link rel="stylesheet" href="css/skeleton.css"-->   <!--link rel="icon" type="image/png" href="images/favicon.png"--></td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="yurong-chen">YURONG CHEN</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="index.html">home</a></td>
+      <td><a href="cv/eng_cv2.pdf">CV</a></td>
+      <td>&lt;!– <a href="papers.html">papers</a></td>
+      <td>–&gt;<strong>misc</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="services">SERVICES</h5>
+
+<!--2020-->
+
+<p>PC member</p>
+
+<ul>
+  <li>
+    <!-- IJCAI 2021 (senior PC), AAAI (2021, 2020), NeurIPS 2020, IJCAI 2020, AAMAS 2020, AAAI 2020. -->
+    <p>IJTCS-FAW 2022 (Track chair of Conscious AI), IJTCS 2021 (Track chair of Conscious AI).</p>
+  </li>
+</ul>
+
+<!-- <div class="row papercontainer">
+  <div class="two columns paperyear">
+  Reviewer
+  </div>
+  <div class="ten columns">
+  <div class="paperlist">
+  		<ul>
+  		<li>
+  			<b>Conferences:</b> AAMAS 2020, ECAI 2020, AAAI 2019, IJCAI 2019, MFCS 2019, GameSec 2019.
+  		</li>
+      <li>
+  			<b>Journals:</b> Artificial Intelligence (AIJ), Theoretical Computer Science (TCS), IEEE Trans. on AI (TAI), IEEE Trans. on Information Forensics and Security (TIFS), Autonomous Agents and Multi-agent Systems (JAAMAS).
+  		</li>
+  		</ul>
+  	</div>
+  	</div>
+  </div> -->
+
+<h5 id="talks">TALKS</h5>
+
+<!--2022-->
+
+<p>2022</p>
+
+<ul>
+  <li>Optimal Private Payoff Manipulation against Commitment in Extensive-form Games IJTCS-FAW ‘22 (Young Ph.D. Forum).<br />
+Hong Kong, 18 August 2022.
+<!-- <li>
+      <span class="papername">On the Convergence of Fictitious Play: A Decomposition Approach </span>
+      <span class="confname">IJCAI '22</span>. <br/>
+			Online, July.
+		</li> --></li>
+</ul>
+
+<h5 id="teaching">TEACHING</h5>
+
+<!--2020-->
+
+<p> </p>
+
+<ul>
+  <li>Discrete Mathematics Ⅰ (2019 Autumn, 2020 Autumn), Teaching Assistant<br />
+School of Electronics Engineering and Computer Science, Peking University.</li>
+  <li>Discrete Mathematics Ⅱ(2020 Spring), Teaching Assistant<br />
+School of Electronics Engineering and Computer Science, Peking University.</li>
+  <li>Conscious Turing Machine (2020 Spring, 2021 Spring), Teaching Assistant<br />
+School of Electronics Engineering and Computer Science, Peking University.</li>
+  <li>Mathematics in Artificial Intelligence (2022 Spring), Teaching Assistant<br />
+Yuanpei College, Peking University.</li>
+</ul>
+:ET
