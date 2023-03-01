@@ -21,10 +21,10 @@
           {%- endif -%}
         {%- endif -%}
         {%- if entry.abbrt -%}
-          {%- if site.data.venues[entry.abbrt] -%}
+          {%- if site.data.venues[entry.abbr] -%}
             {%- assign venue_style = nil -%}
-            {%- if site.data.venues[entry.abbrt].color != blank -%}
-              {%- assign venue_style = site.data.venues[entry.abbrt].color | prepend: 'style="background-color:' | append: '"' -%}
+            {%- if site.data.venues[entry.abbr].color != blank -%}
+              {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
             {%- endif -%}
             <abbrt class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbrt].url}}">{{entry.abbrt}}</a></abbrt>
           {%- else -%}
