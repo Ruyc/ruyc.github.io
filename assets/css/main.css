@@ -337,7 +337,7 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover { color: var(--global-h
 
 .column, .columns { width: 100%; float: left; box-sizing: border-box; }
 
-.paperyear { margin-bottom: 1.5rem; }
+.paperyear { margin-bottom: 2rem; }
 
 .paperlist { line-height: 1.6; }
 
