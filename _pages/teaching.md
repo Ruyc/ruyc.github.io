@@ -37,6 +37,24 @@ nav_order: 5
   	</div>
   </div>
 
+  <div class="row papercontainer">
+  <div class="two columns paperyear">
+  <h5>Volunteer</h5>
+  </div>
+  <div class="ten columns">
+  <div class="paperlist">
+      <ul>
+      <li>
+      Conferences: IJTCS-FAW 2022 WINE 2021, IJTCS2 2021
+      </li>
+      <li>
+      Workshops and Forums: The 2nd Cybereconomy and Game Theory Forum in China.
+      </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+
 </div>
 
 <div class="row section">
@@ -53,6 +71,11 @@ nav_order: 5
   <div class="ten columns">
   <div class="paperlist">
   	  <ul>
+      <li>
+        <span class="papername">Learning to Manipulate a Commitment Optimizer</span>, 
+        <span class="confname">The third CCF Theoretical Computer Science Excellent Young Ph.D. forum. <br/>
+        Qingdao, Shandong, China, 25 September 2022. 
+      </li>
       <li>
         <span class="papername">Optimal Private Payoff Manipulation against Commitment in Extensive-form Games</span>, 
         Young Ph.D. Forum, <span class="confname">IJTCS-FAW' 22</span>. <br/>
