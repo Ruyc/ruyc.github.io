@@ -333,11 +333,11 @@ d-appendix a, d-appendix a.footnote-backlink { color: var(--global-distill-app-c
 
 d-appendix a:hover, d-appendix a.footnote-backlink:hover { color: var(--global-hover-color) !important; }
 
-@media (max-width: 1024px) { d-article d-contents { display: block; grid-column-start: 2; grid-column-end: -2; padding-bottom: 0.5em; margin-bottom: 1em; padding-top: 0.5em; width: 100%; border: 1px solid var(--global-divider-color); } d-article d-contents nav { grid-column: none; } }
+@media (max-width: 2048px) { d-article d-contents { display: block; grid-column-start: 2; grid-column-end: -2; padding-bottom: 0.5em; margin-bottom: 1em; padding-top: 0.5em; width: 100%; border: 1px solid var(--global-divider-color); } d-article d-contents nav { grid-column: none; } }
 
 .column, .columns { width: 100%; float: left; box-sizing: border-box; }
 
-.paperyear { margin-bottom: 2rem; }
+.paperyear { margin-bottom: 1.5rem; }
 
 .paperlist { line-height: 1.6; }
 
