@@ -29,6 +29,7 @@ nav_order: 5
   <div class="paperlist">
   		<ul>
   		<li>
+  			<!-- IJCAI 2021 (senior PC), AAAI (2021, 2020), NeurIPS 2020, IJCAI 2020, AAMAS 2020, AAAI 2020. -->
   		IJTCS-FAW 2022 (Track chair of Conscious AI), IJTCS 2021 (Track chair of Conscious AI).
       </li>
   		</ul>
@@ -53,17 +54,12 @@ nav_order: 5
   <div class="paperlist">
   	  <ul>
       <li>
-        <span class="papername">Learning to Manipulate a Commitment Optimizer</span>, 
-        <span class="confname">The third CCF Theoretical Computer Science Excellent Young Ph.D. forum. <br/>
-        Qingdao, Shandong, China, 25 September 2022. 
-      </li>
-      <li>
         <span class="papername">Optimal Private Payoff Manipulation against Commitment in Extensive-form Games</span>, 
         Young Ph.D. Forum, <span class="confname">IJTCS-FAW' 22</span>. <br/>
         Hong Kong, China, 18 August 2022. 
       </li>
   	  <li>
-        <span class="papername">Optimal Private Payoff Manipulation against Commitment in Extensive-form Games</span>, <span class="confname">Complexity & Algorithm Workshop</span>. <br/>
+        <span class="papername">Optimal Private Payoff Manipulation against Commitment in Extensive-form Games</span>, <span class="confname">Complexity \& Algorithm Workshop</span>. <br/>
         Suzhou, Jiangsu, China, 5 August 2022. 
       </li>
   		<li>
