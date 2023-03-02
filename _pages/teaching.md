@@ -50,21 +50,6 @@ nav_order: 5
   	</div>
   </div>
 
-  <div class="row papercontainer">
-  <div class="two columns paperyear">
-	<h5>Conference Reviewer</h5>
-  </div>
-  <div class="ten columns">
-  <div class="paperlist">
-  		<ul>
-  		<li>
-  			STOC 2023, WINE 2020. 
-      </li>
-  		</ul>
-  	</div>
-  	</div>
-  </div>
-
 
 </div>
 
