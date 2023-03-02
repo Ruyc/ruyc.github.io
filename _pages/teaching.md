@@ -55,7 +55,7 @@ nav_order: 5
   	  <ul>
   		<li>
         <span class="papername">On the Convergence of Fictitious Play: A Decomposition Approach</span>, 
-        <span class="confname">IJCAI' 22</span>.<br/>
+        <span class="confname">IJCAI' 22</span>.
       </li>
   		</ul>
   	</div>
