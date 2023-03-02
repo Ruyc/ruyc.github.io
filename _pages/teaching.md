@@ -39,28 +39,13 @@ nav_order: 5
 
   <div class="row papercontainer">
   <div class="two columns paperyear">
-  <h5>Conference Reviewer</h5>
-  </div>
-  <div class="ten columns">
-  <div class="paperlist">
-      <ul>
-      <li>
-        STOC 2023, WINE 2020. 
-      </li>
-      </ul>
-    </div>
-    </div>
-  </div>
-
-  <div class="row papercontainer">
-  <div class="two columns paperyear">
   <h5>Journal Reviewer</h5>
   </div>
   <div class="ten columns">
   <div class="paperlist">
       <ul>
       <li>
-        SIAM Journal on Computing (SICOMP). 
+        SIAM Journal on Computing (SICOMP).
       </li>
       </ul>
     </div>
