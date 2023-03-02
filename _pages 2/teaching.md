@@ -39,21 +39,6 @@ nav_order: 5
 
   <div class="row papercontainer">
   <div class="two columns paperyear">
-  <h5>Journal Reviewer</h5>
-  </div>
-  <div class="ten columns">
-  <div class="paperlist">
-      <ul>
-      <li>
-        SIAM Journal on Computing (SICOMP). 
-      </li>
-      </ul>
-    </div>
-    </div>
-  </div>
-
-  <div class="row papercontainer">
-  <div class="two columns paperyear">
   <h5>Volunteer</h5>
   </div>
   <div class="ten columns">
