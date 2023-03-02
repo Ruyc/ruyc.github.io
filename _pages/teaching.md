@@ -113,7 +113,7 @@ nav_order: 5
       </li>
       <li>
         <span class="papername">Optimal Private Payoff Manipulation against Commitment in Extensive-form Games</span>, 
-        <span class="confname">Complexity \& Algorithm Workshop</span>. <br/>
+        <span class="confname">Complexity & Algorithm Workshop</span>. <br/>
         Suzhou, Jiangsu, China, 5 August 2022. 
       </li>
       <li>
