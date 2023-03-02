@@ -143,12 +143,12 @@ nav_order: 5
   <div class="paperlist">
 		<ul>
     <li>
-      <span class="papername">Mathematics in Artificial Intelligence (2022 Spring)</span><br/>
-      Yuanpei College, Peking University.
+      <span class="papername">Conscious Turing Machine (2020 Spring, 2021 Spring, 2023 Spring)</span> <br/>
+      School of Electronics Engineering and Computer Science, Peking University.
     </li>
     <li>
-      <span class="papername">Conscious Turing Machine (2020 Spring, 2021 Spring)</span> <br/>
-      School of Electronics Engineering and Computer Science, Peking University.
+      <span class="papername">Mathematics in Artificial Intelligence (2022 Spring)</span><br/>
+      Yuanpei College, Peking University.
     </li>
 		<li>
 			<span class="papername">Discrete Mathematics Ⅰ (2019 Autumn, 2020 Autumn)</span><br/>
