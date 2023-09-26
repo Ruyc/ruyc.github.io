@@ -20,7 +20,7 @@
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
-        {%- if entry.price -%}
+        <!-- {%- if entry.price -%}
           {%- if site.data.venues[entry.price] -%}
             {%- assign venue_style = nil -%}
             {%- if site.data.venues[entry.price].color != blank -%}
@@ -30,7 +30,10 @@
           {%- else -%}
             <abbr class="badge">{{entry.price}}</abbr>
           {%- endif -%}
-        {%- endif -%}
+        {%- endif -%} -->
+        {% if entry.price %}
+        <span class="award badge">{{entry.price}}</span>
+        {% endif %}
         </div>
 
         <!-- Entry bib key -->
@@ -136,6 +139,10 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
+
+        <div class="long_price">
+          {{entry.long_price}}
+        </div>
         
           <!-- Links/Buttons -->
           <div class="links">
