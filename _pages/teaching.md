@@ -26,6 +26,7 @@ Conferences: IJTCS-FAW 2022 WINE 2021, IJTCS2 2021
 
 Workshops and Forums: The 2nd Cybereconomy and Game Theory Forum in China. 
 <br>
+<br>
 
 ## Talks
 
@@ -43,6 +44,7 @@ Workshops and Forums: The 2nd Cybereconomy and Game Theory Forum in China.
 
 **On the Convergence of Fictitious Play: A Decomposition Approach**
 - 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI 2022), Jul. 2022
+<br>
 <br>
 
 ## Teaching
