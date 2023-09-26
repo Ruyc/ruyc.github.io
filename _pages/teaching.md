@@ -12,22 +12,23 @@ nav_order: 5
 
 ### PC member
 
-IJTCS-FAW 2023 (Track chair of Multi-Agent Learning, Track chair of Conscious AI), IJTCS-FAW 2022 (Track chair of Conscious AI), IJTCS 2021 (Track chair of Conscious AI)
+- IJTCS-FAW 2023 (Track chair of Multi-Agent Learning, Track chair of Conscious AI), IJTCS-FAW 2022 (Track chair of Conscious AI), IJTCS 2021 (Track chair of Conscious AI)
 
 
 ### Conference Reviewer
-ISAAC 2023, STOC 2023, WINE 2020
+- ISAAC 2023, STOC 2023, WINE 2020
 
 
 
 ### Journal Reviewer
-SIAM Journal on Computing (SICOMP)	
+- SIAM Journal on Computing (SICOMP)	
 
 ### Volunteer
 - Conferences: IJTCS-FAW 2022 WINE 2021, IJTCS2 2021
 
 - Workshops and Forums: The 2nd Cybereconomy and Game Theory Forum in China. 
-
+<br>
+<br>
 
 ## Talks
 
@@ -46,6 +47,8 @@ SIAM Journal on Computing (SICOMP)
 **On the Convergence of Fictitious Play: A Decomposition Approach**
 - 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI 2022), Jul. 2022
 
+<br>
+<br>
 ## Teaching
 
 **Teaching Assistant** in **Peking University**
