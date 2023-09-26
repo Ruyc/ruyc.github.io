@@ -8,150 +8,54 @@ nav_order: 5
 ---
 
 
+## Services
 
-<body>
-  <div class="container">
+### PC member
 
-
-<div class="row section" style="margin-top: 0">
-    <div>
-      <h3>
-        SERVICES
-      </h3>
-    </div>
-
-	<!--2020-->
-  <div class="row papercontainer">
-  <div class="two columns paperyear">
-	<h5>PC member</h5>
-  </div>
-  <div class="ten columns">
-  <div class="paperlist">
-  		<ul>
-  		<li>
-  			<!-- IJCAI 2021 (senior PC), AAAI (2021, 2020), NeurIPS 2020, IJCAI 2020, AAMAS 2020, AAAI 2020. -->
-  		IJTCS-FAW 2022 (Track chair of Conscious AI), IJTCS 2021 (Track chair of Conscious AI).
-      </li>
-  		</ul>
-  	</div>
-  	</div>
-  </div>
-
-  <div class="row papercontainer">
-  <div class="two columns paperyear">
-  <h5>Reviewer</h5>
-  </div>
-  <div class="ten columns">
-  <div class="paperlist">
-      <ul>
-      <li>
-      Conferences: STOC 2023, WINE 2020. 
-      </li>
-      <li>
-      Journal: SIAM Journal on Computing (SICOMP).
-      </li>
-      </ul>
-    </div>
-    </div>
-  </div>
+IJTCS-FAW 2023 (Track chair of Multi-Agent Learning, Track chair of Conscious AI), IJTCS-FAW 2022 (Track chair of Conscious AI), IJTCS 2021 (Track chair of Conscious AI)
 
 
-  <div class="row papercontainer">
-  <div class="two columns paperyear">
-  <h5>Volunteer</h5>
-  </div>
-  <div class="ten columns">
-  <div class="paperlist">
-      <ul>
-      <li>
-      Conferences: IJTCS-FAW 2022 WINE 2021, IJTCS2 2021
-      </li>
-      <li>
-      Workshops and Forums: The 2nd Cybereconomy and Game Theory Forum in China.
-      </li>
-      </ul>
-    </div>
-    </div>
-  </div>
-
-</div>
-
-<div class="row section">
-    <div>
-      <h3>
-        TALKS
-      </h3>
-
-	<!--2022-->
-  <div class="row papercontainer">
-  <div class="two columns paperyear">
-	<h5>2022</h5>
-  </div>
-  <div class="ten columns">
-  <div class="paperlist">
-  	  <ul>
-      <li>
-        <span class="papername">Learning to Manipulate a Commitment Optimizer</span>, 
-        <span class="confname">The Third CCF Theoretical Computer Science Excellent Young Ph.D. forum</span>. <br/>
-        Qingdao, Shandong, China, 25 September 2022. 
-      </li>
-      <li>
-        <span class="papername">Optimal Private Payoff Manipulation against Commitment in Extensive-form Games</span>, 
-        Young Ph.D. Forum, <span class="confname">IJTCS-FAW' 22</span>. <br/>
-        Hong Kong, China, 18 August 2022. 
-      </li>
-  	  <li>
-        <span class="papername">Optimal Private Payoff Manipulation against Commitment in Extensive-form Games</span>, <span class="confname">Complexity & Algorithm Workshop</span>. <br/>
-        Suzhou, Jiangsu, China, 5 August 2022. 
-      </li>
-  		<li>
-        <span class="papername">On the Convergence of Fictitious Play: A Decomposition Approach</span>, 
-        <span class="confname">IJCAI' 22</span>.
-      </li>
-  		</ul>
-  	</div>
-  	</div>
-  </div>
-
-</div>
-
-<div class="row section">
-  <div>
-    <h3>
-      TEACHING
-    </h3>
-  </div>
-
-	<!--2020-->
-  <div class="row papercontainer">
-  <div class="two columns paperyear">
-	<h5> Teaching Assistant </h5>
-  </div>
-  <div class="ten columns">
-  <div class="paperlist">
-		<ul>
-    <li>
-      <span class="papername">Conscious Turing Machine (2020 Spring, 2021 Spring, 2023 Spring)</span> <br/>
-      School of Electronics Engineering and Computer Science, Peking University.
-    </li>
-    <li>
-      <span class="papername">Mathematics in Artificial Intelligence (2022 Spring)</span><br/>
-      Yuanpei College, Peking University.
-    </li>
-    <li>
-      <span class="papername">Discrete Mathematics Ⅰ (2019 Autumn, 2020 Autumn)</span><br/>
-      School of Electronics Engineering and Computer Science, Peking University.
-    </li>
-    <li>
-      <span class="papername">Discrete Mathematics Ⅱ(2020 Spring)</span> <br/>
-      School of Electronics Engineering and Computer Science, Peking University.
-    </li>
-		</ul>
-	</div>
-	</div>
-  </div>
-</div>
+### Conference Reviewer
+ISAAC 2023, STOC 2023, WINE 2020
 
 
-</div>
 
+### Journal Reviewer
+SIAM Journal on Computing (SICOMP)	
+
+### Volunteer
+- Conferences: IJTCS-FAW 2022 WINE 2021, IJTCS2 2021
+
+- Workshops and Forums: The 2nd Cybereconomy and Game Theory Forum in China. 
+
+
+## Talks
+
+**Coordinated Dynamic Bidding in Repeated Second-Price Auctions with Budgets**
+- Female Forum, International Joint Conference on Theoretical Computer Science – Frontier of Algorithmic Wisdom (IJTCS-FAW 2023), Macau, China, Aug. 2023
+
+**Optimal Private Payoff Manipulation against Commitment in Extensive-Form Games**
+- CCF 2023 Annual Conference on Computational Economics (CCF CE 2023), Macau, China, Aug. 2023
+- 2023 IJCAI Young Elite Symposium (IJCAI-Young 2023), Shanghai, China, Jul. 2023
+- Young Ph.D. Forum, IJTCS-FAW' 22, Hong Kong, China, Aug. 2022
+- Complexity & Algorithm Workshop. Jiangsu, China, Aug. 2022
+
+**Learning to Manipulate a Commitment Optimizer**
+- 3rd CCF Theoretical Computer Science Excellent Young Ph.D. forum, Shandong, China, Sept. 2022
+
+**On the Convergence of Fictitious Play: A Decomposition Approach**
+- 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI 2022), Jul. 2022
+
+## Teaching
+
+**Teaching Assistant** in **Peking University**
+
+- **Conscious Turing Machine (2020 Spring, 2021 Spring, 2023 Spring)**, School of Electronics Engineering and Computer Science
+- **Mathematics in Artificial Intelligence (2022 Spring)**, Yuanpei College
+- **Discrete Mathematics Ⅰ** for **Turing Class (2019 Fall, 2020 Fall)**, School of Electronics Engineering and Computer Science
+- **Discrete Mathematics Ⅱ** for **Turing  Class (2020 Spring)**, School of Electronics Engineering and Computer Science
+
+
+**Teaching Assistant** in **Beihang University**
+
+- **Real Function** for **Hua Luogeng Class (2019 Spring)**, Hua Luogeng Class, Shenyuan Honors College
