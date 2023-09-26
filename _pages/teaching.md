@@ -8,7 +8,7 @@ nav_order: 5
 ---
 
 
-## Services
+## **Services**
 
 #### PC member
 IJTCS-FAW 2023 (Track chair of Multi-Agent Learning, Track chair of Conscious AI), IJTCS-FAW 2022 (Track chair of Conscious AI), IJTCS 2021 (Track chair of Conscious AI)
@@ -28,7 +28,7 @@ Workshops and Forums: The 2nd Cybereconomy and Game Theory Forum in China.
 <br>
 <br>
 
-## Talks
+## **Talks**
 
 **Coordinated Dynamic Bidding in Repeated Second-Price Auctions with Budgets**
 - Female Forum, International Joint Conference on Theoretical Computer Science – Frontier of Algorithmic Wisdom (IJTCS-FAW 2023), Macau, China, Aug. 2023
@@ -47,7 +47,7 @@ Workshops and Forums: The 2nd Cybereconomy and Game Theory Forum in China.
 <br>
 <br>
 
-## Teaching
+## **Teaching**
 
 **Teaching Assistant** in **Peking University**
 
