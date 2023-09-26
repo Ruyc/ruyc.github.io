@@ -45,7 +45,7 @@
           <div class="title">{{entry.title}}</div>
           <!-- Author -->
           <div class="author">
-          <!-- {%- if entry.ab -%}{{*}}{% endif %} -->
+          {%- if entry.ab -%}{{*}}{% endif %}
           {% assign author_array_size = entry.author_array | size %}
 
           {% assign author_array_limit = author_array_size %}
@@ -120,6 +120,10 @@
 
           </div>
 
+          <div class="long_price">
+            {{entry.long_price}}
+          </div>
+
           <!-- Journal/Book title and date -->
           {% assign proceedings = "inproceedings, incollection" | split: ','%}
           {% if entry.type == "article" -%}
@@ -141,9 +145,6 @@
           </div>
         {%- endif %}
 
-        <div class="long_price">
-          {{entry.long_price}}
-        </div>
         
           <!-- Links/Buttons -->
           <div class="links">
