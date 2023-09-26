@@ -70,7 +70,9 @@
               {%- endfor -%}
             {%- endif -%}
             
-            {%- if entry.ab -%}{{*}}{%- endif -%}
+            {%- if entry.ab -%}
+              *&nbsp;
+            {%- endif -%}
 
             {%- if forloop.length > 1 -%}
               {%- if forloop.first == false -%},&nbsp;{%- endif -%}
