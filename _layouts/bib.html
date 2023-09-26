@@ -44,7 +44,6 @@
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
           <!-- Author -->
-          {% if entry.ab %}{{*}}{% endif %}
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
 
@@ -71,6 +70,8 @@
               {%- endfor -%}
             {%- endif -%}
             
+            {%- if entry.ab -%}{{*}}{%- endif -%}
+
             {%- if forloop.length > 1 -%}
               {%- if forloop.first == false -%},&nbsp;{%- endif -%}
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
