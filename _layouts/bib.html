@@ -52,6 +52,10 @@
             {% assign author_array_limit = site.max_author_limit %}
           {% endif %}
 
+          {%- if entry.ab -%}
+            *&nbsp;
+          {%- endif -%}
+
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
             {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
@@ -70,9 +74,6 @@
               {%- endfor -%}
             {%- endif -%}
             
-            {%- if entry.ab -%}
-              *&nbsp;
-            {%- endif -%}
 
             {%- if forloop.length > 1 -%}
               {%- if forloop.first == false -%},&nbsp;{%- endif -%}
