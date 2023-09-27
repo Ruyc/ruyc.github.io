@@ -2,7 +2,8 @@
 layout: page
 permalink: /papers/
 title: PAPERS
-description: ❈ indicates alphabetical author order
+description:
+<a href = 'https://dblp.org/pid/02/41-2.html'>[dblp]</a><br> ❈ indicates alphabetical author order
 years: [2023,2022,2021]
 nav: true
 nav_order: 1
