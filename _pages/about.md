@@ -2,7 +2,7 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle: <a href='https://cfcs.pku.edu.cn/english/'>Center on Frontiers of Computer Science</a>, Peking University, China.
+subtitle: Inria, Ecole Normale Supérieure, PSL Research University, France.
 
 profile:
   align: right
