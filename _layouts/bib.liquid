@@ -103,10 +103,10 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
+          {% comment %} <em> {% endcomment %}
             <strong> {{- author.first }}
             {{ author_last_html -}} </strong>
-          </em>
+          {% comment %} </em> {% endcomment %}
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
