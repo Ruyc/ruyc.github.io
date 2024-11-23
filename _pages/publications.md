@@ -13,8 +13,33 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<br>
+
+<div class='h2'>Journal</div>
+
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @*[type=journal]* %}
+
+</div>
+
+<br>
+
+<div class='h2'>Conference</div>
+
+<div class="publications">
+
+{% bibliography --query @*[type=conference]* %}
+
+</div>
+
+<br>
+
+
+<div class='h2'>Working Papers</div>
+
+<div class="publications">
+
+{% bibliography --query @*[type=preprint]* %}
 
 </div>
