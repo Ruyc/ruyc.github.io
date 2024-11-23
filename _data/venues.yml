@@ -1,9 +1,42 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+# <-- conferences -->
 
-"Vision":
-  color: "#009f36"
+
+"WINE":
+  url: 
+  color: "#ebb134"
+
+"ICML":
+  url: 
+  color: "#ebb134"
+
+"AAMAS":
+  url: 
+  color: "#ebb134"
+
+"IJCAI":
+  url: 
+  color: "#ebb134"
+
+"KDD":
+  url: 
+  color: "#ebb134"
+
+"NeurIPs":
+  url: 
+  color: "#ebb134"
+
+"ACM EC":
+  url: 
+  color: "#ebb134"
+
+# <--journal-->
+"Games Econ. Behav.":
+  url: 
+  color: "#6cd0f5"
+
+# <--award-->
+"Best Student Paper":
+   url:
+   color: "#84569c"
+
