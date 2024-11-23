@@ -1,0 +1,155 @@
+---
+---
+
+@article{duan2023a,
+  author       = {Duan, Zhijian and
+                  Sun, Haoran and
+                  Chen, Yurong and
+                  Deng, Xiaotie},
+  title        = {A Scalable Neural Network for {DSIC} Affine Maximizer Auction Design},
+  journal      = {arXiv preprint arXiv:2302.11829},
+  year         = {2023},
+  volume       = {abs/2305.12162},
+  url          = {https://doi.org/10.48550/arXiv.2305.12162},
+  doi          = {10.48550/arXiv.2305.12162},
+  eprinttype    = {arXiv},
+  eprint       = {2305.12162},
+  timestamp    = {Fri, 26 May 2023 11:29:33 +0200},
+  abstract = {Automated auction design aims to find empirically high-revenue mechanisms through machine learning. Existing works on multi item auction scenarios can be roughly divided into RegretNet-like and affine maximizer auctions (AMAs) approaches. However, the former cannot strictly ensure dominant strategy incentive compatibility (DSIC), while the latter faces scalability issue due to the large number of allocation candidates. To address these limitations, we propose AMenuNet, a scalable neural network that constructs the AMA parameters (even including the allocation menu) from bidder and item representations. AMenuNet is always DSIC and individually rational (IR) due to the properties of AMAs, and it enhances scalability by generating candidate allocations through a neural network. Additionally, AMenuNet is permutation equivariant, and its number of parameters is independent of auction scale. We conduct extensive experiments to demonstrate that AMenuNet outperforms strong baselines in both contextual and non-contextual multi-item auctions, scales well to larger auctions, generalizes well to different settings, and identifies useful deterministic allocations. Overall, our proposed approach offers an effective solution to automated DSIC auction design, with improved scalability and strong revenue performance in various settings.},
+  abbr = {Arxiv},
+  arxiv = {2305.12162},
+  selected = {false},
+  bibtex_show = {true},
+}
+
+@inproceedings{li2023learningbased,
+  author = {Li, Ningyuan and Ma, Yunxuan and Zhao, Yang and Duan, Zhijian and Chen, Yurong and Zhang, Zhilin and Xu, Jian and Zheng, Bo and Deng, Xiaotie},
+  title = {Learning-Based Ad Auction Design with Externalities: The Framework and A Matching-Based Approach},
+  year = {2023},
+  isbn = {9798400701030},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3580305.3599403},
+  doi = {10.1145/3580305.3599403},
+  abstract = {Learning-based ad auctions have increasingly been adopted in online advertising. However, existing approaches neglect externalities, such as the interaction between ads and organic items. In this paper, we propose a general framework, namely Score-Weighted VCG, for designing learning-based ad auctions that account for externalities. The framework decomposes the optimal auction design into two parts: designing a monotone score function and an allocation algorithm, which facilitates data-driven implementation. Theoretical results demonstrate that this framework produces the optimal incentive-compatible and individually rational ad auction under various externality-aware CTR models while being data-efficient and robust. Moreover, we present an approach to implement the proposed framework with a matching-based allocation algorithm. Experiment results on both real-world and synthetic data illustrate the effectiveness of the proposed approach.},
+  booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages = {1291–1302},
+  numpages = {12},
+  keywords = {multi-slot ad auction, learning-based mechanism design, online advertising, externality},
+  location = {Long Beach, CA, USA},
+  series = {KDD '23}, 
+  selected = {false},
+  bibtex_show = {true},
+  arxiv = {2306.07709},
+}
+
+@inproceedings{chen2023coordinated,
+  title =    {Coordinated Dynamic Bidding in Repeated Second-Price Auctions with Budgets},
+  author =       {Chen, Yurong and Wang, Qian and Duan, Zhijian and Sun, Haoran and Chen, Zhaohua and Yan, Xiang and Deng, Xiaotie},
+  booktitle =    {Proceedings of the 40th International Conference on Machine Learning},
+  pages =    {5052--5086},
+  year =   {2023},
+  editor =   {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume =   {202},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {23--29 Jul},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/v202/chen23ac/chen23ac.pdf},
+  url =    {https://proceedings.mlr.press/v202/chen23ac.html},
+  abstract =   {In online ad markets, a rising number of advertisers are employing bidding agencies to participate in ad auctions. These agencies are specialized in designing online algorithms and bidding on behalf of their clients. Typically, an agency usually has information on multiple advertisers, so she can potentially coordinate bids to help her clients achieve higher utilities than those under independent bidding. In this paper, we study coordinated online bidding algorithms in repeated second-price auctions with budgets. We propose algorithms that guarantee every client a higher utility than the best she can get under independent bidding. We show that these algorithms achieve maximal social welfare and discuss bidders’ incentives to misreport their budgets, in symmetric cases. Our proofs combine the techniques of online learning and equilibrium analysis, overcoming the difficulty of competing with a multi-dimensional benchmark. The performance of our algorithms is further evaluated by experiments on both synthetic and real data. To the best of our knowledge, we are the first to consider bidder coordination in online repeated auctions with constraints.},
+  selected = {true},
+  bibtex_show = {true},
+  arxiv = {2306.07709},
+  abbr = {ICML},
+  poster = {ICML_poster.pdf},
+}
+
+
+@article{chen2023learning,
+  title={Learning to Manipulate a Commitment Optimizer},
+  author={Chen, Yurong and Deng, Xiaotie and Gan, Jiarui and Li, Yuhao},
+  journal={arXiv preprint arXiv:2302.11829},
+  year={2023},
+  arxiv = {2206.13119},
+  selected = {true},
+  bibtex_show = {true},
+  abstract = {It is shown in recent studies that in a Stackelberg game the follower can manipulate the leader by deviating from their true best-response behavior. Such manipulations are computationally tractable and can be highly beneficial for the follower. Meanwhile, they may result in significant payoff losses for the leader, sometimes completely defeating their first-mover advantage. A warning to commitment optimizers, the risk these findings indicate appears to be alleviated to some extent by a strict information advantage the manipulations rely on. That is, the follower knows the full information about both players' payoffs whereas the leader only knows their own payoffs. In this paper, we study the manipulation problem with this information advantage relaxed. We consider the scenario where the follower is not given any information about the leader's payoffs to begin with but has to learn to manipulate by interacting with the leader. The follower can gather necessary information by querying the leader's optimal commitments against contrived best-response behaviors. Our results indicate that the information advantage is not entirely indispensable to the follower's manipulations: the follower can learn the optimal way to manipulate in polynomial time with polynomially many queries of the leader's optimal commitment.},
+  abbr = {Arxiv},
+}
+
+@inproceedings{chen2022optimal,
+  author    = {Yurong Chen and
+               Xiaotie Deng and
+               Yuhao Li},
+  editor    = {Kristoffer Arnsfelt Hansen and
+               Tracy Xiao Liu and
+               Azarakhsh Malekian},
+  title     = {Optimal Private Payoff Manipulation Against Commitment in Extensive-form
+               Games},
+  booktitle = {Web and Internet Economics - 18th International Conference, {WINE}
+               2022, Troy, NY, USA, December 12-15, 2022, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {13778},
+  pages     = {355},
+  publisher = {Springer},
+  year      = {2022},
+  url       = {https://link.springer.com/content/pdf/bbm:978-3-031-22832-2/1?pdf=chapter\%20toc},
+  timestamp = {Tue, 03 Jan 2023 17:36:55 +0100},
+  biburl    = {https://dblp.org/rec/conf/wine/0002D022.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  selected = {true},
+  bibtex_show = {true},
+  arxiv = {2206.13119},
+  abstract = {To take advantage of strategy commitment, a useful tactic of playing games, a leader must learn enough information about the follower’s payoff function. However, this leaves the follower a chance to provide fake information and influence the final game outcome. Through a carefully contrived payoff function misreported to the learning leader, the follower may induce an outcome that benefits him more, compared to the ones when he truthfully behaves. 
+
+  We study the follower’s optimal manipulation via such strategic behaviors in extensive-form games. Followers’ different attitudes are taken into account. An optimistic follower maximizes his true utility among all game outcomes that can be induced by some payoff function. A pessimistic follower only considers misreporting payoff functions that induce a unique game outcome. For all the settings considered in this paper, we characterize all the possible game outcomes that can be induced successfully. We show that it is polynomial-time tractable for the follower to find the optimal way of misreporting his private payoff information. Our work completely resolves this follower’s optimal manipulation problem on an extensive-form game tree.
+},
+  poster = {poster-30.pdf},
+  slides = {cyr-IJTCS.pptx},
+  abbr = {WINE},
+  abbrt = {Best Student Paper},
+}
+
+
+@inproceedings{chen2022on,
+author = {Chen, Yurong and Deng, Xiaotie and Li, Chenchen and Mguni, David and Wang, Jun and Yan, Xiang and Yang,Yaodong},
+editor = {Luc De Raedt},
+title = {On the Convergence of Fictitious Play: {A} Decomposition Approach},
+booktitle = {Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, {IJCAI} 2022, Vienna, Austria, 23-29 July 2022},
+pages = {179--185},
+publisher = {ijcai.org},
+year = {2022},
+url = {https://doi.org/10.24963/ijcai.2022/26},
+doi = {10.24963/ijcai.2022/26},
+timestamp = {Wed, 27 Jul 2022 16:43:00 +0200},
+biburl = {https://dblp.org/rec/conf/ijcai/0001DLM0Y022.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+selected ={true},
+bibtex_show = {true},
+arxiv = {2205.01469},
+abstract = {Fictitious play (FP) is one of the most fundamental game-theoretical learning frameworks for computing Nash equilibrium in n-player games, which builds the foundation for modern multi-agent learning algorithms. Although FP has provable convergence guarantees on zero-sum games and potential games, many real-world problems are often a mixture of both and the convergence property of FP has not been fully studied yet. In this paper, we extend the convergence results of FP to the combinations of such games and beyond. Specifically, we derive new conditions for FP to converge by leveraging game decomposition techniques. We further develop a linear relationship unifying cooperation and competition in the sense that these two classes of games are mutually transferable. Finally, we analyze a non-convergent example of FP, the Shapley game, and develop sufficient conditions for FP to converge.
+          },
+abbr = {IJCAI},
+}
+
+@inproceedings{wang2021the,
+author = {Qian Wang and Yurong Chen},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+biburl = {https://dblp.org/rec/conf/atal/WangC21.bib},
+booktitle = {AAMAS '21: 20th International Conference on Autonomous Agents and Multiagent Systems, Virtual Event, United Kingdom, May 3-7, 2021},
+doi = {10.5555/3463952.3464204},
+editor = {Frank Dignum and Alessio Lomuscio and Ulle Endriss and Ann Nowé},
+pages = {1695--1697},
+publisher = {ACM},
+timestamp = {Wed, 04 May 2022 13:01:03 +0200},
+title = {The Tight Bound for Pure Price of Anarchy in an Extended Miner's Dilemma Game},
+url = {https://dl.acm.org/doi/10.5555/3463952.3464204},
+year = {2021},
+selected = {false},
+bibtex_show = {true},
+arxiv = {2101.11855},
+abstract = {Pool block withholding attack is performed among mining pools in digital cryptocurrencies, such as Bitcoin. Instead of mining honestly, pools can be incentivized to infiltrate their own miners into other pools. These infiltrators report partial solutions but withhold full solutions, share block rewards but make no contribution to block mining. The block withholding attack among mining pools can be modeled as a non-cooperative game called "the miner's dilemm", which reduces effective mining power in the system and leads to potential systemic instability in the blockchain. However, existing literature on the game-theoretic properties of this attack only gives a preliminary analysis, e.g., an upper bound of 3 for the pure price of anarchy (PPoA) in this game, with two pools involved and no miner betraying. Pure price of anarchy is a measurement of how much mining power is wasted in the miner's dilemma game. Further tightening its upper bound will bring us more insight into the structure of this game, so as to design mechanisms to reduce the systemic loss caused by mutual attacks. In this paper, we give a tight bound of (1, 2] for the pure price of anarchy. Moreover, we show the tight bound holds in a more general setting, in which infiltrators may betray.We also prove the existence and uniqueness of pure Nash equilibrium in this setting. Inspired by experiments on the game among three mining pools, we conjecture that similar results hold in the N-player miner's dilemma game (N>=2).},
+abbr = {AAMAS},
+}
+
+
