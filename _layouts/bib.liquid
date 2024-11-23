@@ -25,6 +25,22 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+      {% comment %} {%- if entry.price -%}
+          {%- if site.data.venues[entry.price] -%}
+            {%- assign venue_style = nil -%}
+            {%- if site.data.venues[entry.price].color != blank -%}
+              {%- assign venue_style = site.data.venues[entry.price].color | prepend: 'style="background-color:' | append: '"' -%}
+            {%- endif -%}
+            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.price].url}}">{{entry.price}}</a></abbr>
+          {%- else -%}
+            <abbr class="badge">{{entry.price}}</abbr>
+          {%- endif -%}
+        {%- endif -%}  {% endcomment %}
+      {% if entry.price %}
+          <span class="award badge">{{entry.price}}</span>
+        {% endif %}
+        
+
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -56,6 +72,11 @@
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
+
+<!-- for alphabetical authorship -->
+      {%- if entry.ab -%}
+        (αβ)&nbsp;
+      {%- endif -%}
 
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
