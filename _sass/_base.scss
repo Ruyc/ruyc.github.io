@@ -717,11 +717,25 @@ footer.sticky-bottom {
           border: 1px solid var(--global-theme-color);
         }
       }
-
+      .price {
+        height: 2rem;
+        margin-bottom: 0.5rem;
+        color: blue;
+        price {
+          display: inline-block;
+          color: blue;
+          background-color: $grey-color;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+        }
+      }
       .title {
         font-weight: bolder;
       }
-
+      .long_price {
+        color: var(--global-theme-color); 
+        font-weight: bolder;
+      }
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
