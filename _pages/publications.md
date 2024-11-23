@@ -19,7 +19,7 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography --query @*[type=journal]* %}
+{% bibliography --query @*[howpublished=journal]* %}
 
 </div>
 
@@ -29,7 +29,7 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography --query @*[type=conference]* %}
+{% bibliography --query @*[howpublished=conference]* %}
 
 </div>
 
@@ -40,6 +40,6 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography --query @*[type=preprint]* %}
+{% bibliography --query @*[howpublished=preprint]* %}
 
 </div>
