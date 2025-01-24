@@ -29,6 +29,7 @@ My current research interest lies in
 During my PhD, I visited [Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/) at the University of Hong Kong from Feb. to Aug. 2023, and from Aug. to Sept. 2024. I worked as an intern at Alimama group from May. to Sept. 2024 on online ad auctions. 
 
 My email: 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; yurong.chen [at] inria.fr; 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; yurong.chen1909 [at] gmail.com
