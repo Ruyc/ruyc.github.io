@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-I am honored to receive the  **[2024 CCF Incentive Program for Outstanding Doctoral Dissertations in Theoretical Computer Science for my PhD research](https://mp.weixin.qq.com/s/nVPN44JYK6rGDMuKSChoOQ)** (Thesis title: *Games over Learning Agents: Private Information Learning, Utilization, and Coordination*).
+I am honored to receive the  **[2024 CCF Incentive Program for Outstanding Doctoral Dissertations in Theoretical Computer Science](https://mp.weixin.qq.com/s/nVPN44JYK6rGDMuKSChoOQ)** for my PhD research (Thesis title: *Games over Learning Agents: Private Information Learning, Utilization, and Coordination*).
