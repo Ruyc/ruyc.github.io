@@ -24,11 +24,14 @@ Theoretical Computer Science, SIAM Journal on Computing (SICOMP)
 #### Volunteer
 **Conferences**: IJTCS-FAW 2023, EC 2023, IJTCS-FAW 2022, WINE 2021, IJTCS 2021
 
-**Workshops and Forums**: Mathematical Foundations of the Internet and Blockchain Economics Workshop (Student organizer), The 2nd Cybereconomy and Game Theory Forum in China. 
+**Workshops and Forums**: Mathematical Foundations of the Internet and Blockchain Economics Workshop 2024, 2025 (Student organizer), The 2nd Cybereconomy and Game Theory Forum in China. 
 <br>
 <br>
 
 ## **Talks**
+
+**Learning a Stackelberg Leader's Incentive Through Optimal Commitments**
+- Mathematical Foundations of the Internet and Blockchain Economics Workshop 2025, Sanya, Hainan, China, Jan. 2025
 
 **Are Bounded Contracts Learnable and Approximately Optimal?**
 - INFORMS Annual Meeting, Seattle, WA, USA, Oct. 2024
