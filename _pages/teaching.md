@@ -49,10 +49,12 @@ Theoretical Computer Science, SIAM Journal on Computing (SICOMP)
 ## **Talks**
 
 **Learning a Stackelberg Leader's Incentive Through Optimal Commitments**
+- The 1st UK Workshop for Junior Researchers in Economics and Computation (JECCO UK 2025), Edinburgh, UK, Jun. 2025
 - Junior Game Theory Seminar of Parisians, Paris, France, Mar. 2025
 - Mathematical Foundations of the Internet and Blockchain Economics Workshop 2025, Sanya, Hainan, China, Jan. 2025
 
-**Are Bounded Contracts Learnable and Approximately Optimal?**
+**Are Bounded Contracts Learnable and Approximately Optimal?**\
+- University of Oxford, UK, Jun. 2025
 - FOAM Seminar, University of Amsterdam, Amsterdam, Netherlands, Apr. 2025
 - 15th Day on Computational Game Theory, Amsterdam, Netherlands, Apr. 2025
 - INFORMS Annual Meeting, Seattle, WA, USA, Oct. 2024
