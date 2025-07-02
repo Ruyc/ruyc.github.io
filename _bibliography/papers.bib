@@ -23,6 +23,30 @@
 
 % Conferences
 
+@inproceedings{chen2023learning,
+author = {Chen, Yurong and Deng, Xiaotie and Gan, Jiarui and Li, Yuhao},
+title = {Learning a Stackelberg Leader's Incentives from Optimal Commitments},
+year = {2025},
+isbn = {9798400719431},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3736252.3742612},
+doi = {10.1145/3736252.3742612},
+abstract = {Stackelberg equilibria, as functions of the players' payoffs, can inversely reveal information about the players' incentives. In this paper, we study to what extent one can learn about the leader's incentives by actively querying the leader's optimal commitments against strategically designed followers. We show that, by using polynomially many queries and operations, one can learn a payoff function that is strategically equivalent to the leader's, in the sense that: 1) it preserves the leader's preference over almost all strategy profiles; and 2) it preserves the set of all possible (strong) Stackelberg equilibria the leader may engage in, considering all possible follower types. As an application, we show that the information acquired by our algorithm is sufficient for a follower to induce the best possible Stackelberg equilibrium by imitating a different follower type. To the best of our knowledge, we are the first to demonstrate that this is possible without knowing the leader's payoffs beforehand.A full version of this paper can be found at https://arxiv.org/abs/2302.11829.},
+booktitle = {Proceedings of the 26th ACM Conference on Economics and Computation},
+pages = {688},
+numpages = {1},
+keywords = {stackelberg games, inverse game theory, query complexity, private information manipulation, equilibrium inducing},
+location = {Stanford University, Stanford, CA, USA},
+series = {EC '25},
+arxiv = {2302.11829},
+selected = {true},
+bibtex_show = {true},
+abbr = {ACM EC},
+ab = {true},
+howpublished = {conferencet},
+}
+
 @inproceedings{chen2024bounded,
 author = {Chen, Yurong and Chen, Zhaohua and Deng, Xiaotie and Huang, Zhiyi},
 title = {Are Bounded Contracts Learnable and Approximately Optimal?},
@@ -202,27 +226,6 @@ howpublished = {conference},
 }
 
 % Working Paper
-
-
-@misc{chen2023learning,
-      title={Learning to Manipulate a Commitment Optimizer}, 
-      author={Chen, Yurong and 
-              Deng, Xiaotie and 
-              Gan, Jiarui and 
-              Li, Yuhao},
-      year={2023},
-      eprint={2302.11829},
-      archivePrefix={arXiv},
-      primaryClass={cs.GT},
-      abstract = {We consider a Stackelberg scenario where the leader commits optimally based on the follower’s type (i.e., the follower’s payoff function). Despite its rationality, such commitmentoptimizing behavior inadvertently reveals information about the leader’s incentive, especially when one gets access to the leader’s optimal commitments against different follower types. In this paper, we study to what extent one can learn about the leader’s payoff information by actively querying the leader’s optimal commitments. We show that, by using polynomially many queries and operations, a learner can learn a payoff function that is strategically equivalent to the leader’s original payoff function, in the sense that it preserves: 1) the leader’s preference over fairly broad sets of strategy profiles and 2) the set of all possible (strong) Stackelberg equilibria the leader may engage in, considering all possible follower types. As an application, we show that a follower can use the learned information to induce an optimal Stackelberg equilibrium (w.r.t. the follower’s payoff) by imitating a different type, without knowing the leader’s payoff function beforehand. To the best of our knowledge, we are the first to extend this equilibrium inducing problem to the incomplete information setting},
-      arxiv = {2302.11829},
-      selected = {true},
-      bibtex_show = {true},
-      abbr = {Arxiv},
-      ab = {true},
-      howpublished = {preprint},
-}
-
 
 @misc{sun2024mechanism,
       title={Mechanism Design for LLM Fine-tuning with Multiple Reward Models}, 
