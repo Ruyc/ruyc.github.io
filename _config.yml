@@ -2,18 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yurong Chen&nbsp;&nbsp;陈昱蓉 # the website title (if blank, full name will be used instead)
-first_name: Yurong
+title: Yu He&nbsp;&nbsp;何禹 # the website title (if blank, full name will be used instead)
+first_name: Yu
 middle_name: 
-last_name: Chen
-email: yurong.chen@inria.fr
+last_name: He
+email: yuhe2030@u.northwestern.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
  
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Yurong Chen, Algorithmic Game theory, PKU, Peking University, INRIA, INRIA Paris, Chen Yurong # add your own keywords or leave empty
+keywords: Yu He, Algorithmic Game theory, NWU, Northwestern University # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
