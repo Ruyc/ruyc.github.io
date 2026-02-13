@@ -250,19 +250,3 @@ howpublished = {conference},
 % Working Paper
 
 
-@misc{chen2026sampling,
-      title={How Sampling Shapes LLM Alignment: From One-Shot Optima to Iterative Dynamics}, 
-      author={Yurong Chen and Yu He and Michael I. Jordan and Fan Yao},
-      year={2026},
-      eprint={2602.12180},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2602.12180}, 
-      abstract = {Standard methods for aligning large language models with human preferences learn from pairwise comparisons among sampled candidate responses and regularize toward a reference policy. Despite their effectiveness, the effects of sampling and reference choices are poorly understood theoretically. We investigate these effects through Identity Preference Optimization, a widely used preference alignment framework, and show that proper instance-dependent sampling can yield stronger ranking guarantees, while skewed on-policy sampling can induce excessive concentration under structured preferences. We then analyze iterative alignment dynamics in which the learned policy feeds back into future sampling and reference policies, reflecting a common practice of model-generated preference data. We prove that these dynamics can exhibit persistent oscillations or entropy collapse for certain parameter choices, and characterize regimes that guarantee stability. Our theoretical insights extend to Direct Preference Optimization, indicating the phenomena we captured are common to a broader class of preference-alignment methods. Experiments on real-world preference data validate our findings. }
-      arxiv = {2602.12180},
-      selected = {true},
-      bibtex_show = {true},
-      abbr = {Arxiv},
-      howpublished = {preprint},
-      ab = {true},
-}
