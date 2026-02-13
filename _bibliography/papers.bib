@@ -23,6 +23,27 @@
 
 % Conferences
 
+
+@misc{sun2024mechanism,
+      title={Mechanism Design for LLM Fine-tuning with Multiple Reward Models}, 
+      author={Sun, Haoran and 
+              Chen, Yurong and 
+              Wang, Siwei and 
+              Chen, Wei and 
+              Deng, Xiaotie},
+      year={2024},
+      eprint={2405.16276},
+      archivePrefix={arXiv},
+      primaryClass={cs.GT},
+      url={https://arxiv.org/abs/2405.16276}, 
+      abstract = {Fine-tuning large language models (LLMs) to aggregate multiple preferences has attracted considerable research attention. With aggregation algorithms advancing, a potential economic scenario arises where fine-tuning services are provided to agents with different preferences. In this context, agents may benefit from strategically misreporting their preferences, which could affect the fine-tuned outcomes. This paper addresses such incentive issues by framing it as a mechanism design problem: an LLM provider determines the fine-tuning objective (training rule) and the pricing scheme (payment rule) for agents.  SW-Max training rules. Firstly, we show that under most circumstances, truthful reporting is sub-optimal with simply a training rule, thereby highlighting the necessity of payments. Secondly, we design affine maximizer payment rules that implement SW-Max training rules in dominant-strategy incentive compatibility (DSIC). We characterize sufficient conditions for payment equivalence properties. For a training rule that satisfies these conditions, we have found all the payment rules that implement it in DSIC, as they only differ by a constant term irrelevant to agents' reports from each other. Thirdly, we demonstrate that our mechanism is approximately DSIC even with perturbed input, showcasing its robustness against the inevitable errors in real-world applications. Experiments on real LLM setups further confirm the practical implications of our results.},
+      arxiv = {2405.16276},
+      selected = {false},
+      bibtex_show = {true},
+      abbr = {NeurIPs},
+      howpublished = {conference},
+}
+
 @inproceedings{chen2025learning,
 author = {Chen, Yurong and Deng, Xiaotie and Gan, Jiarui and Li, Yuhao},
 title = {Learning a Stackelberg Leader's Incentives from Optimal Commitments},
@@ -228,21 +249,18 @@ howpublished = {conference},
 
 % Working Paper
 
-@misc{sun2024mechanism,
-      title={Mechanism Design for LLM Fine-tuning with Multiple Reward Models}, 
-      author={Sun, Haoran and 
-              Chen, Yurong and 
-              Wang, Siwei and 
-              Chen, Wei and 
-              Deng, Xiaotie},
-      year={2024},
-      eprint={2405.16276},
+
+@misc{chen2026sampling,
+      title={How Sampling Shapes LLM Alignment: From One-Shot Optima to Iterative Dynamics}, 
+      author={Yurong Chen and Yu He and Michael I. Jordan and Fan Yao},
+      year={2026},
+      eprint={2602.12180},
       archivePrefix={arXiv},
-      primaryClass={cs.GT},
-      url={https://arxiv.org/abs/2405.16276}, 
-      abstract = {Fine-tuning large language models (LLMs) to aggregate multiple preferences has attracted considerable research attention. With aggregation algorithms advancing, a potential economic scenario arises where fine-tuning services are provided to agents with different preferences. In this context, agents may benefit from strategically misreporting their preferences, which could affect the fine-tuned outcomes. This paper addresses such incentive issues by framing it as a mechanism design problem: an LLM provider determines the fine-tuning objective (training rule) and the pricing scheme (payment rule) for agents.  SW-Max training rules. Firstly, we show that under most circumstances, truthful reporting is sub-optimal with simply a training rule, thereby highlighting the necessity of payments. Secondly, we design affine maximizer payment rules that implement SW-Max training rules in dominant-strategy incentive compatibility (DSIC). We characterize sufficient conditions for payment equivalence properties. For a training rule that satisfies these conditions, we have found all the payment rules that implement it in DSIC, as they only differ by a constant term irrelevant to agents' reports from each other. Thirdly, we demonstrate that our mechanism is approximately DSIC even with perturbed input, showcasing its robustness against the inevitable errors in real-world applications. Experiments on real LLM setups further confirm the practical implications of our results.},
-      arxiv = {2405.16276},
-      selected = {false},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2602.12180}, 
+      abstract = {Standard methods for aligning large language models with human preferences learn from pairwise comparisons among sampled candidate responses and regularize toward a reference policy. Despite their effectiveness, the effects of sampling and reference choices are poorly understood theoretically. We investigate these effects through Identity Preference Optimization, a widely used preference alignment framework, and show that proper instance-dependent sampling can yield stronger ranking guarantees, while skewed on-policy sampling can induce excessive concentration under structured preferences. We then analyze iterative alignment dynamics in which the learned policy feeds back into future sampling and reference policies, reflecting a common practice of model-generated preference data. We prove that these dynamics can exhibit persistent oscillations or entropy collapse for certain parameter choices, and characterize regimes that guarantee stability. Our theoretical insights extend to Direct Preference Optimization, indicating the phenomena we captured are common to a broader class of preference-alignment methods. Experiments on real-world preference data validate our findings. }
+      arxiv = {2602.12180},
+      selected = {true},
       bibtex_show = {true},
       abbr = {Arxiv},
       howpublished = {preprint},
