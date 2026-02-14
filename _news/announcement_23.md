@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-Our paper <a href = "https://arxiv.org/abs/2405.16276">**Mechanism Design for LLM Fine-tuning with Multiple Reward Models**</a> has been accepted to **NeurIPS 2025** (joint work with Haoran Sun, <a href = "https://www.microsoft.com/en-us/research/people/siweiwang/"> Siwei Wang</a>, <a href = "https://www.microsoft.com/en-us/research/people/weic/">Wei Chen</a>, and <a href="https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm" target="_blank">Xiaotie Deng</a>)
+Our paper <a href = "https://arxiv.org/abs/2405.16276">**Mechanism Design for LLM Fine-tuning with Multiple Reward Models**</a> has been accepted to **NeurIPS 2025** (joint work with Haoran Sun, <a href = "https://www.microsoft.com/en-us/research/people/siweiwang/"> Siwei Wang</a>, <a href = "https://www.microsoft.com/en-us/research/people/weic/">Wei Chen</a>, and <a href="https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm" target="_blank">Xiaotie Deng</a>). 
