@@ -2,5 +2,6 @@
 
 <div class="publications">
   {% bibliography --group_by none --query @*[selected=true, howpublished=preprint]* %}
-  {% bibliography --group_by none --query @*[selected=true, howpublished!=preprint]* %}
+  {% bibliography --group_by none --query @*[selected=true, howpublished=journal]* %}
+  {% bibliography --group_by none --query @*[selected=true, howpublished=conference]* %}
 </div>
