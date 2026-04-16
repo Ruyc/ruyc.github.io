@@ -15,6 +15,16 @@ nav_order: 2
 
 <br>
 
+<div class='h2'>Working Papers</div>
+
+<div class="publications">
+
+{% bibliography --query @*[howpublished=preprint]* %}
+
+</div>
+
+<br>
+
 <div class='h2'>Journal</div>
 
 <div class="publications">
@@ -25,21 +35,11 @@ nav_order: 2
 
 <br>
 
+
 <div class='h2'>Conference</div>
 
 <div class="publications">
 
 {% bibliography --query @*[howpublished=conference]* %}
-
-</div>
-
-<br>
-
-
-<div class='h2'>Working Papers</div>
-
-<div class="publications">
-
-{% bibliography --query @*[howpublished=preprint]* %}
 
 </div>
