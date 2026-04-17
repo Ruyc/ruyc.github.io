@@ -1,8 +1,6 @@
 "chen":
   - firstname: ["Wei"]
     url: https://www.microsoft.com/en-us/research/people/weic/
-
-"chen": 
   - firstname: ["Zhaohua"]
     url: https://daleczh.github.io/
 
@@ -22,12 +20,22 @@
   - firstname: ["Zhiyi"]
     url: https://i.cs.hku.hk/~zhiyi/
 
+"jordan":
+  - firstname: ["Michael I."]
+    url: https://stat-www.berkeley.edu/~jordan/
+
 "li":
   - firstname: ["Yuhao"]
     url: https://yuhao.li/
+
+"luo":
+  - firstname: ["Haipeng"]
+    url: https://haipeng-luo.net/
 
 "wang":
   - firstname: ["Siwei"]
     url: https://www.microsoft.com/en-us/research/people/siweiwang/
 
-
+"yao":
+  - firstname: ["Fan"]
+    url: https://www.yaofan29597.com/
