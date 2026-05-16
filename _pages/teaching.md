@@ -13,6 +13,9 @@ nav_order: 5
 #### PC member
 ACM EC 2025, IJTCS-FAW 2023 (Track chair of Multi-Agent Learning, Track chair of Conscious AI), IJTCS-FAW 2022 (Track chair of Conscious AI), IJTCS 2021 (Track chair of Conscious AI)
 
+#### Workshop Organizer
+<a href="https://alimama-tech.github.io/aims-2026/"><strong>AIMS Workshop</strong></a> at <strong>ICLR 2026</strong>, <a href="https://sites.google.com/view/ecgiw/home"><strong>Gender Inclusion Workshop</strong></a> at <strong>EC 2026</strong>
+
 #### Conference Reviewer
 NeurIPs 2024 & 2025, ESA 2025, STACS 2025, AISTATS 2025, ICLR 2025, ITCS 2025, SODA 2025, FOCS 2024, ISAAC 2023, STOC 2023, WINE 2020
 
@@ -80,4 +83,3 @@ Theoretical Computer Science, SIAM Journal on Computing (SICOMP)
 - 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI 2022), Jul. 2022
 <br>
 <br>
-
