@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a currently a postdoc at <a href = "https://sierra-mlopt.github.io/">SIERRA</a>-team, <a href = "https://www.inria.fr/en/inria-paris-centre"> INRIA Paris</a>, working with <a href = "https://people.eecs.berkeley.edu/~jordan/"> Michael I. Jordan</a>. I obtained my PhD degree in Computer Science at Peking University, where I was advised by [Xiaotie Deng](https://dblp.org/pid/d/XiaotieDeng.html). I obtained my bachelor degree in Applied Mathematics from Hua Luogeng Honors Class, Beihang University. 
+I am currently an <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/fi/actions/postdoctoral-fellowships"><strong>MSCA postdoctoral fellow</strong></a> at <a href="https://sierra-mlopt.github.io/">SIERRA</a>-team, <a href="https://www.inria.fr/en/inria-paris-centre">INRIA Paris</a>, where I am jointly advised by <a href="https://www.di.ens.fr/~fbach/">Francis Bach</a> and <a href="https://people.eecs.berkeley.edu/~jordan/">Michael I. Jordan</a>. I obtained my PhD degree in Computer Science at Peking University, where I was advised by [Xiaotie Deng](https://dblp.org/pid/d/XiaotieDeng.html). I obtained my bachelor degree in Applied Mathematics from Hua Luogeng Honors Class, Beihang University. 
       
 My current research interest lies in 
 <!-- the intersection between economics and computation.  -->
