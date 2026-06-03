@@ -11,23 +11,23 @@ nav_order: 5
 ## **Services**
 
 #### PC member
-ACM EC 2025, IJTCS-FAW 2023 (Track chair of Multi-Agent Learning, Track chair of Conscious AI), IJTCS-FAW 2022 (Track chair of Conscious AI), IJTCS 2021 (Track chair of Conscious AI)
+ACM EC 2025 & 2026, WWW 2026, WINE 2025 & 2026, IJTCS-FAW 2025, IJTCS-FAW 2023 (Track chair of Multi-Agent Learning, Track chair of Conscious AI), IJTCS-FAW 2022 (Track chair of Conscious AI), IJTCS 2021 (Track chair of Conscious AI)
 
 #### Workshop Organizer
-<a href="https://alimama-tech.github.io/aims-2026/">AIMS Workshop</a> at ICLR 2026, <a href="https://sites.google.com/view/ecgiw/home">Gender Inclusion Workshop</a> at EC 2026
+<a href="https://sites.google.com/view/ecgiw/home">Gender Inclusion Workshop (GIW)</a> at EC 2026, <a href="https://alimama-tech.github.io/aims-2026/">AI for Mechanism Design and Strategic Decision Making Workshop (AIMS)</a> at ICLR 2026
 
 #### Conference Reviewer
-NeurIPs 2024 & 2025, ESA 2025, STACS 2025, AISTATS 2025, ICLR 2025, ITCS 2025, SODA 2025, FOCS 2024, ISAAC 2023, STOC 2023, WINE 2020
+FOCS 2024 & 2025, AISTATS 2025 & 2026, ESA 2025, NeurIPs 2024 & 2025, STACS 2025, ICLR 2025, ITCS 2025, SODA 2025, ISAAC 2023, STOC 2023, WINE 2020
 
 
 
 #### Journal Reviewer
-Theoretical Computer Science, SIAM Journal on Computing (SICOMP)	
+Journal of Combinatorial Optimization (JOCO), Theoretical Computer Science (TCS), SIAM Journal on Computing (SICOMP)
 
 #### Volunteer
-**Conferences**: IJTCS-FAW 2021 & 2022 & 2023, EC 2023, WINE 2021, 
+**Conferences**: IJTCS 2021, IJTCS-FAW 2021 & 2022 & 2023, EC 2023, WINE 2021
 
-**Workshops and Forums**: Mathematical Foundations of the Internet and Blockchain Economics Workshop 2024, 2025 (Student organizer), The 2nd Cybereconomy and Game Theory Forum in China. 
+**Workshops and Forums**: Mathematical Foundations of the Internet and Blockchain Economics Workshop 2024 & 2025 (Student organizer), The 2nd Cybereconomy and Game Theory Forum in China
 <br>
 <br>
 
@@ -52,14 +52,21 @@ Theoretical Computer Science, SIAM Journal on Computing (SICOMP)
 ## **Talks**
 
 **Learning a Stackelberg Leader's Incentive Through Optimal Commitments**
+- The University of North Carolina at Chapel Hill, Chapel Hill, NC, USA, Jan. 2026
+- Max Planck Institute for Intelligent Systems, Tubingen, Germany, Nov. 2025
+- INFORMS Annual Meeting, Atlanta, GA, USA, Oct. 2025
+- King's College London, London, UK, Sept. 2025
+- London School of Economics, London, UK, Sept. 2025
+- Imperial College Business School, London, UK, Sept. 2025
+- Foundations of AI Seminar, University of Warwick, Warwick, UK, Sept. 2025
 - The 1st UK Workshop for Junior Researchers in Economics and Computation (JECCO UK 2025), Edinburgh, UK, Jun. 2025
 - Junior Game Theory Seminar of Parisians, Paris, France, Mar. 2025
-- Mathematical Foundations of the Internet and Blockchain Economics Workshop 2025, Sanya, Hainan, China, Jan. 2025
+- Mathematical Foundations of Internet and Blockchain Economics Workshop, Sanya, China, Jan. 2025
 
 **Are Bounded Contracts Learnable and Approximately Optimal?**\
-- University of Oxford, UK, Jun. 2025
+- University of Oxford, Oxford, UK, Jun. 2025
 - FOAM Seminar, University of Amsterdam, Amsterdam, Netherlands, Apr. 2025
-- 15th Day on Computational Game Theory, Amsterdam, Netherlands, Apr. 2025
+- 15th Day on Computational Game Theory, Tilburg, Netherlands, Apr. 2025
 - INFORMS Annual Meeting, Seattle, WA, USA, Oct. 2024
 - City University of Hong Kong, Hong Kong, China, Aug. 2024
 - CCF 2024 Annual Conference on Computational Economics, Wuxi, China, Jul. 2024
