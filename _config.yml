@@ -8,7 +8,7 @@ middle_name:
 last_name: Chen
 email: yurong.chen@inria.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
- 
+  Yurong Chen is an MSCA postdoctoral fellow at Inria Paris researching learning and game theory. She will be on the 2026–27 faculty job market.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

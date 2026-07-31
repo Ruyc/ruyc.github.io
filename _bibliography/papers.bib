@@ -9,7 +9,7 @@
   issn = {0899-8256},
   doi = {https://doi.org/10.1016/j.geb.2024.11.008},
   url = {https://www.sciencedirect.com/science/article/pii/S0899825624001647},
-  author = {Yurong Chen and Xiaotie Deng and Yuhao Li},
+  author = {Chen, Yurong and Deng, Xiaotie and Li, Yuhao},
   keywords = {Stackelberg equilibrium, Strategic behavior, Private information manipulation, Extensive-form games},
   abstract = {Stackelberg equilibrium describes the optimal strategies of a player, when she (the leader) first credibly commits to a strategy. Her opponent (the follower) will best respond to her commitment. To compute the optimal commitment, a leader must learn enough follower's payoff information. The follower can then potentially provide fake information, to induce a different final game outcome that benefits him more than when he truthfully behaves. We study such follower's manipulation in extensive-form games. For all four settings considered, we characterize all the inducible game outcomes. We show the polynomial-time tractability of finding the optimal payoff function to misreport. We compare the follower's optimal attainable utilities among different settings, with the true game fixed. In particular, one comparison shows that the follower gets no less when the leader's strategy space expands from pure strategies to behavioral strategies. Our work completely resolves this follower's optimal manipulation problem on extensive-form game trees.},
   selected = {true},
@@ -23,24 +23,46 @@
 
 % Conferences
 
+@InProceedings{chen2026calibeatingsimple,
+  title = 	 {Calibeating Made Simple},
+  author =       {Chen, Yurong and Huang, Zhiyi and Jordan, Michael I. and Luo, Haipeng},
+  booktitle = 	 {Proceedings of Thirty Ninth Conference on Learning Theory},
+  pages = 	 {1373--1398},
+  year = 	 {2026},
+  editor = 	 {Hanneke, Steve and Lattimore, Tor},
+  volume = 	 {336},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {29 Jun--03 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v336/main/assets/chen26h/chen26h.pdf},
+  url = 	 {https://proceedings.mlr.press/v336/chen26h.html},
+  abstract = 	 { We study calibeating, the problem of post-processing external forecasts online to minimize cumulative losses and match an informativeness-based benchmark.  Unlike prior work, which analyzed calibeating for specific losses with specific arguments, we reduce calibeating to existing online learning techniques and obtain results for general proper losses. More concretely, we first show that calibeating is minimax-equivalent to regret minimization.  This recovers the $O(\log T)$ calibeating rate of Foster and Hart (2023) for the Brier and log losses and its optimality, and yields new optimal calibeating rates for exp-concave losses and general bounded losses. Second, we prove that multi-calibeating is minimax-equivalent to the combination of calibeating and the  classical expert problem. This yields new optimal multi-calibeating rates for exp-concave losses, including Brier and log losses, and general bounded losses. Finally, we obtain new bounds for achieving calibeating and calibration simultaneously for the Brier loss. For binary predictions, our result gives the first calibrated algorithm that at the same time also achieves the optimal $O(\log T)$ calibeating rate.}, 
+  arxiv = {2603.22167},
+  selected = {true},    
+  bibtex_show = {true},
+  abbr = {COLT},
+  howpublished = {conference},
+  ab = {true},
+}
+
+
 
 @misc{sun2024mechanism,
-      title={Mechanism Design for LLM Fine-tuning with Multiple Reward Models}, 
-      author={Sun, Haoran and 
-              Chen, Yurong and 
-              Wang, Siwei and 
-              Chen, Wei and 
-              Deng, Xiaotie},
-      year={2024},
-      eprint={2405.16276},
-      archivePrefix={arXiv},
-      primaryClass={cs.GT},
-      url={https://arxiv.org/abs/2405.16276}, 
+      	title={Mechanism Design for LLM Fine-tuning with Multiple Reward Models}, 
+      	author = {Sun, Haoran and Chen, Yurong and Wang, Siwei and Xu, Chu and Chen, Wei and Deng, Xiaotie},
+	booktitle = {Advances in Neural Information Processing Systems},
+	editor = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},
+ 	pages = {159692--159734},
+ 	publisher = {Curran Associates, Inc.},
+ 	title = {Mechanism Design for LLM Fine-tuning with Multiple Reward Models},
+ 	url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/ea21628f0fc0de542373be4c88343478-Paper-Conference.pdf},
+	volume = {38},
+	year = {2025}
       abstract = {Fine-tuning large language models (LLMs) to aggregate multiple preferences has attracted considerable research attention. With aggregation algorithms advancing, a potential economic scenario arises where fine-tuning services are provided to agents with different preferences. In this context, agents may benefit from strategically misreporting their preferences, which could affect the fine-tuned outcomes. This paper addresses such incentive issues by framing it as a mechanism design problem: an LLM provider determines the fine-tuning objective (training rule) and the pricing scheme (payment rule) for agents.  SW-Max training rules. Firstly, we show that under most circumstances, truthful reporting is sub-optimal with simply a training rule, thereby highlighting the necessity of payments. Secondly, we design affine maximizer payment rules that implement SW-Max training rules in dominant-strategy incentive compatibility (DSIC). We characterize sufficient conditions for payment equivalence properties. For a training rule that satisfies these conditions, we have found all the payment rules that implement it in DSIC, as they only differ by a constant term irrelevant to agents' reports from each other. Thirdly, we demonstrate that our mechanism is approximately DSIC even with perturbed input, showcasing its robustness against the inevitable errors in real-world applications. Experiments on real LLM setups further confirm the practical implications of our results.},
       arxiv = {2405.16276},
       selected = {false},
       bibtex_show = {true},
-      abbr = {NeurIPs},
+      abbr = {NeurIPS},
       howpublished = {conference},
 }
 
@@ -270,19 +292,3 @@ howpublished = {conference},
       ab = {true},
 }
 
-@misc{chen2026calibeatingsimple,
-      title={Calibeating Made Simple}, 
-      author={Yurong Chen and Zhiyi Huang and Michael I. Jordan and Haipeng Luo},
-      year={2026},
-      eprint={2603.22167},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2603.22167}, 
-      abstract = {We study calibeating, the problem of post-processing external forecasts online to minimize cumulative losses and match an informativeness-based benchmark. Unlike prior work, which analyzed calibeating for specific losses with specific arguments, we reduce calibeating to existing online learning techniques and obtain results for general proper losses. More concretely, we first show that calibeating is minimax-equivalent to regret minimization. This recovers the O(logT) calibeating rate of Foster and Hart [FH23] for the Brier and log losses and its optimality, and yields new optimal calibeating rates for mixable losses and general bounded losses. Second, we prove that multi-calibeating is minimax-equivalent to the combination of calibeating and the classical expert problem. This yields new optimal multi-calibeating rates for mixable losses, including Brier and log losses, and general bounded losses. Finally, we obtain new bounds for achieving calibeating and calibration simultaneously for the Brier loss. For binary predictions, our result gives the first calibrated algorithm that at the same time also achieves the optimal O(logT) calibeating rate.},
-      arxiv = {2603.22167},
-      selected = {true},
-      bibtex_show = {true},
-      abbr = {Arxiv},
-      howpublished = {preprint},
-      ab = {true},
-}
