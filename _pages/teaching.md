@@ -2,6 +2,7 @@
 layout: page
 permalink: /misc/
 title: ACADEMIC ACTIVITIES
+nav_title: ACTIVITIES
 description:
 nav: true
 nav_order: 5
