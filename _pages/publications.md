@@ -2,7 +2,7 @@
 layout: page
 permalink: /papers/
 title: PAPERS
-description: <a href = 'https://dblp.org/pid/02/41-2.html'>[dblp]</a><br>  (αβ)indicates alphabetical author order. * indicates equal contribution.
+description: <a href = 'https://dblp.org/pid/02/41-2.html'>[dblp]</a><br>  (αβ) indicates alphabetical author order. * indicates equal contribution.
 nav: true
 nav_order: 2
 ---

@@ -8,12 +8,12 @@ middle_name:
 last_name: Chen
 email: yurong.chen@inria.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Yurong Chen is an MSCA postdoctoral fellow at Inria Paris researching learning and game theory. She will be on the 2026–27 faculty job market.
+  Yurong Chen is an MSCA Postdoctoral Fellow at Inria Paris working at the interface of machine learning, algorithmic game theory, and economic design. She is on the 2026–27 faculty job market.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Yurong Chen, Algorithmic Game theory, PKU, Peking University, INRIA, INRIA Paris, Chen Yurong # add your own keywords or leave empty
+keywords: Yurong Chen, machine learning, algorithmic game theory, economic design, learning in strategic environments, Inria Paris, Peking University, Chen Yurong # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
