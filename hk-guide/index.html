@@ -53,6 +53,8 @@ body {
 .wrap { max-width: 1280px; margin: 0 auto; display: grid; gap: 14px; }
 header h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(28px, 4vw, 40px); line-height: 1.1; margin: 0; text-wrap: balance; }
 header p { margin: 6px 0 0; color: var(--muted); max-width: 72ch; }
+header p.fb { margin-top: 8px; font-size: 14px; }
+.fb a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
 .zh { font-family: var(--font-zh); }
 a { color: var(--ferry); }
 
@@ -369,6 +371,7 @@ body.zhopen { overflow: hidden; }
   <header>
     <h1>Hong Kong by District</h1>
     <p>Nine areas of Hong Kong. Each lists its sights, shops and places to eat, with routes that link them. Pick a district, choose a route, and use the Google Maps links for live directions between stops.</p>
+    <p class="fb">Spotted something wrong, missing or hard to use? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf15Q3DGlmO88IXUNQa1hRFo4EP4j6t3SiE0A7iMYMZkjzyQ/viewform" target="_blank" rel="noopener">Send feedback</a> (no sign-in needed).</p>
   </header>
 
   <div class="chips" id="chips" role="toolbar" aria-label="Districts"></div>
@@ -402,6 +405,7 @@ body.zhopen { overflow: hidden; }
   </div>
 
   <footer>
+    <p class="fb">Something wrong, missing or hard to use? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf15Q3DGlmO88IXUNQa1hRFo4EP4j6t3SiE0A7iMYMZkjzyQ/viewform" target="_blank" rel="noopener">Send feedback</a>. No sign-in needed.</p>
     <p>Drag to move the map, scroll or pinch to zoom. Coastline, MTR, tram, Peak Tram, cable car and ferry lines and every pin come from OpenStreetMap data. On the suggested routes, solid red lines follow the actual streets; dashed lines simply join stops in order. The Google Maps links give live walking or transit directions.</p>
     <p>Opening hours, ferry times and restaurant bookings change; check before going. An Octopus card works on the MTR, buses, trams, the Star Ferry and outlying-island ferries.</p>
     <p>Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>, ODbL.</p>
