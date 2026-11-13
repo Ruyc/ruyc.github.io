@@ -278,6 +278,10 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "hk-guide"
+    values:
+      sitemap: false
 
 sass:
   style: compressed
@@ -287,7 +291,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js", "assets/libs/**/*"]
+  exclude: ["robots.txt", "assets/js/search/*.js", "assets/libs/**/*", "hk-guide/*"]
   uglifier_args:
     harmony: true
 
