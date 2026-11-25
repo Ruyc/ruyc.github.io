@@ -7,7 +7,7 @@ subtitle: MSCA Postdoctoral Fellow · Inria Paris · École Normale Supérieure,
 profile:
   align: right
   image: avatar.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>B102</p>
     <p>48 rue Barrault</p>
